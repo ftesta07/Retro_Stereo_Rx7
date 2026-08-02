@@ -420,6 +420,14 @@
     [
       "2d08f85c-b6a2-419c-aa46-475b339163b7",
       "MCU-STM32H747BIT6"
+    ],
+    [
+      "54e4eddb-e722-42ce-aa24-5a36daac10db",
+      "PMIC_DSI"
+    ],
+    [
+      "c636e63b-1310-4387-ac82-4e9183119085",
+      "Buttons_Panel"
     ]
   ],
   "text_variables": {}
