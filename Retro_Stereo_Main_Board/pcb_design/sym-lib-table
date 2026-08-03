@@ -1,7 +1,8 @@
 (sym_lib_table
   (version 7)
-  (lib (name "PMIC_TPS65631DPDR")(type "KiCad")(uri "${KIPRJMOD}/sch_lib/PMIC_TPS65631DPDR.kicad_sym")(options "")(descr ""))
   (lib (name "BM23FR0.6-30DS-0.35V(895)")(type "KiCad")(uri "${KIPRJMOD}/sch_lib/BM23FR0.6-30DS-0.35V(895) .kicad_sym")(options "")(descr ""))
   (lib (name "USBA_TE")(type "KiCad")(uri "${KIPRJMOD}/sch_lib/USBA_TE.kicad_sym")(options "")(descr ""))
   (lib (name "USBC_Samesky")(type "KiCad")(uri "${KIPRJMOD}/sch_lib/USBC_Samesky.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS65132")(type "KiCad")(uri "${KIPRJMOD}/sch_lib/TPS65132.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS65631DPDR")(type "KiCad")(uri "${KIPRJMOD}/sch_lib/TI TPS65631DPDR.kicad_sym")(options "")(descr ""))
 )

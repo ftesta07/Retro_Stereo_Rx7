@@ -6769,10 +6769,6 @@
 		(uuid "55661d7b-2b2e-4dd3-a4cb-abdd5301ff16")
 	)
 	(no_connect
-		(at 163.83 181.61)
-		(uuid "56829b35-e321-49a3-9235-50be3dcae237")
-	)
-	(no_connect
 		(at 265.43 257.81)
 		(uuid "5982fb32-99ae-43e4-a53f-5c3bef3b1903")
 	)
@@ -6925,10 +6921,6 @@
 		(uuid "c5b472a3-2b17-49aa-890f-fddeafd85a00")
 	)
 	(no_connect
-		(at 163.83 184.15)
-		(uuid "c5dd9cb3-e659-45a2-9f41-cabfbfbd334f")
-	)
-	(no_connect
 		(at 265.43 204.47)
 		(uuid "ca6f3c83-d699-44ea-a575-f580a0311477")
 	)
@@ -6951,10 +6943,6 @@
 	(no_connect
 		(at 265.43 138.43)
 		(uuid "e8783f26-f357-4737-9ac9-0e7e1cdb902b")
-	)
-	(no_connect
-		(at 163.83 179.07)
-		(uuid "f1c575e2-bb6b-4309-add3-e85fc134ed24")
 	)
 	(no_connect
 		(at 265.43 194.31)
@@ -8008,6 +7996,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 184.15) (xy 163.83 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ab31b7-07cb-410a-b78e-c60147832954")
+	)
+	(wire
+		(pts
 			(xy 140.97 219.71) (xy 163.83 219.71)
 		)
 		(stroke
@@ -8455,6 +8453,16 @@
 			(type default)
 		)
 		(uuid "93c6b301-330e-4ad8-bb9c-51853f702b1d")
+	)
+	(wire
+		(pts
+			(xy 129.54 181.61) (xy 163.83 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93d28f76-da8b-4300-a9ef-66641f0ceaa5")
 	)
 	(wire
 		(pts
@@ -9428,6 +9436,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 179.07) (xy 163.83 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd985c20-eed6-4239-8955-51d6052d727a")
+	)
+	(wire
+		(pts
 			(xy 212.09 36.83) (xy 212.09 39.37)
 		)
 		(stroke
@@ -9708,6 +9726,17 @@
 		)
 		(uuid "2fb97fdd-0273-4b6f-8987-72b16b3eb107")
 	)
+	(hierarchical_label "VDDIO_EN"
+		(shape output)
+		(at 129.54 184.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2fe92806-aad6-41df-ad41-71757eaf561e")
+	)
 	(hierarchical_label "BTN_PREV"
 		(shape input)
 		(at 290.83 97.79 0)
@@ -9917,6 +9946,17 @@
 		)
 		(uuid "81d9fc51-e817-47d5-9773-afd6ab45166c")
 	)
+	(hierarchical_label "PMIC_CTRL"
+		(shape output)
+		(at 129.54 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a56aacf-6b56-4653-bb19-3039f25996d5")
+	)
 	(hierarchical_label "DSI_D0_-"
 		(shape output)
 		(at 125.73 80.01 180)
@@ -9971,6 +10011,17 @@
 			(justify right)
 		)
 		(uuid "9a7fa713-ba81-429c-94e5-6a483fe63b9b")
+	)
+	(hierarchical_label "VCI_EN"
+		(shape output)
+		(at 129.54 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ed36fd7-f21b-4464-9c85-a7f468dfa6ba")
 	)
 	(hierarchical_label "DSI_XRES"
 		(shape output)
