@@ -680,6 +680,42 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #|",
+          "name": "LCSC Part #|",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -749,6 +785,30 @@
     [
       "c636e63b-1310-4387-ac82-4e9183119085",
       "Buttons_Panel"
+    ],
+    [
+      "05733c5e-869e-4119-923c-02767c9a5578",
+      "Interface-Encoder"
+    ],
+    [
+      "ef1ea785-ec28-40e1-9bf9-39db934989f5",
+      "LED_Array_APA102"
+    ],
+    [
+      "294b8437-457b-47ff-94d1-bdf30f4d46eb",
+      "FM_Module"
+    ],
+    [
+      "2c18b395-9751-4ca6-8503-bc777d20f625",
+      "Audio-Bluetooth"
+    ],
+    [
+      "aefb8232-0186-42b1-94c4-f1679f22f15c",
+      "Interface-I2C"
+    ],
+    [
+      "d37e29a6-760f-4d8f-802b-b7168023c7e9",
+      "Aux-In-Module"
     ]
   ],
   "text_variables": {}

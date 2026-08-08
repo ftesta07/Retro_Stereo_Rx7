@@ -5,4 +5,5 @@
   (lib (name "USBC_Samesky")(type "KiCad")(uri "${KIPRJMOD}/sch_lib/USBC_Samesky.kicad_sym")(options "")(descr ""))
   (lib (name "TPS65132")(type "KiCad")(uri "${KIPRJMOD}/sch_lib/TPS65132.kicad_sym")(options "")(descr ""))
   (lib (name "TPS65631DPDR")(type "KiCad")(uri "${KIPRJMOD}/sch_lib/TI TPS65631DPDR.kicad_sym")(options "")(descr ""))
+  (lib (name "PCM1808PWR")(type "KiCad")(uri "${KIPRJMOD}/sch_lib/PCM1808PWR.kicad_sym")(options "")(descr ""))
 )

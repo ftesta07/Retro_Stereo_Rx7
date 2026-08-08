@@ -2244,6 +2244,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 215.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 215.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eaa5f3ca-fc9a-4bc0-9185-eb1e5fb7d8f1")
 		)
@@ -2536,6 +2554,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 63.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 63.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "17b35cd1-442b-4c8d-aa58-fd61670cbddd")
 		)
@@ -2820,6 +2856,24 @@
 			)
 		)
 		(property "alt MPN" ""
+			(at 160.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 160.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 160.02 71.12 0)
 			(effects
 				(font
@@ -3199,6 +3253,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 83.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 83.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "978cb84e-f7b1-4667-bd1e-db86283c1373")
 		)
@@ -3362,6 +3434,24 @@
 			)
 		)
 		(property "alt MPN" ""
+			(at 233.68 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 233.68 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 233.68 54.61 0)
 			(effects
 				(font
@@ -3567,6 +3657,24 @@
 			)
 		)
 		(property "alt MPN" ""
+			(at 170.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 170.18 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 170.18 71.12 0)
 			(effects
 				(font
@@ -3781,6 +3889,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 124.46 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 124.46 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d572557a-310f-4feb-86ed-c7899c220366")
 		)
@@ -3944,6 +4070,24 @@
 			)
 		)
 		(property "alt MPN" ""
+			(at 158.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 158.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 158.75 54.61 0)
 			(effects
 				(font
@@ -4150,6 +4294,24 @@
 			)
 		)
 		(property "alt MPN" ""
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 73.66 74.93 0)
 			(effects
 				(font
@@ -4365,6 +4527,24 @@
 			)
 		)
 		(property "alt MPN" ""
+			(at 227.33 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 227.33 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 227.33 71.12 0)
 			(effects
 				(font
@@ -4744,6 +4924,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 191.77 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 191.77 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "821f5444-21f3-46dd-92e2-6f0aeca8edab")
 		)
@@ -4932,6 +5130,24 @@
 			)
 		)
 		(property "alt MPN" ""
+			(at 148.59 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 148.59 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 148.59 71.12 0)
 			(effects
 				(font
@@ -5221,6 +5437,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 205.74 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 205.74 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "92c24a73-9bb7-4679-a86e-1baf351dae1e")
 		)
@@ -5395,6 +5629,24 @@
 		)
 		(property "LCSC Part" "C917144"
 			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 113.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 113.03 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5624,6 +5876,24 @@
 			)
 		)
 		(property "alt MPN" ""
+			(at 181.61 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 181.61 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 181.61 71.12 0)
 			(effects
 				(font
@@ -5905,6 +6175,24 @@
 			)
 		)
 		(property "alt MPN" ""
+			(at 130.81 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 130.81 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 130.81 67.31 90)
 			(effects
 				(font
@@ -6205,6 +6493,24 @@
 				(hide yes)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7b43231f-57e1-4de7-90af-fddaab65198a")
 		)
@@ -6411,6 +6717,24 @@
 			)
 		)
 		(property "alt MPN" ""
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 138.43 80.01 0)
 			(effects
 				(font
@@ -6782,6 +7106,24 @@
 			)
 		)
 		(property "alt MPN" ""
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 93.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 93.98 74.93 0)
 			(effects
 				(font

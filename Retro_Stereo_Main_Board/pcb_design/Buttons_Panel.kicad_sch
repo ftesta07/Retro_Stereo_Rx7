@@ -5,6 +5,146 @@
 	(uuid "427785fc-ba8d-42f0-ade9-c7da4a881780")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -508,50 +648,92 @@
 		)
 	)
 	(junction
-		(at 208.28 88.9)
+		(at 116.84 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7a0b29dd-a493-4b7e-a9dc-f97446b0d17b")
+		(uuid "0d482cd2-7f9f-46d2-a63d-98fc6a5b0bdc")
 	)
 	(junction
-		(at 120.65 88.9)
+		(at 228.6 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9a1a9344-1967-4315-9870-f4a47d89b476")
+		(uuid "1038fd97-37ba-48f6-b97c-b52cc748c5de")
 	)
 	(junction
-		(at 179.07 88.9)
+		(at 116.84 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b7cd4034-19a2-4be8-a0a5-f1e1a496c0d8")
+		(uuid "21c81078-5320-4cec-b86c-d5ba903efe64")
 	)
 	(junction
-		(at 91.44 88.9)
+		(at 137.16 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bead830a-1803-41c5-a0b5-17b07a69d0d1")
+		(uuid "3470a4a6-733f-459c-ae93-986d6d21ddbc")
 	)
 	(junction
-		(at 236.22 88.9)
+		(at 162.56 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cbc1ad80-a507-49fb-950a-7b31ee8822db")
+		(uuid "3b1e4b9d-6185-416f-a0b2-6deecb677ca6")
 	)
 	(junction
-		(at 62.23 88.9)
+		(at 137.16 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66f6b71f-f486-4282-9f6c-97b0fd842226")
+	)
+	(junction
+		(at 91.44 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68ae1df8-d636-4dd0-81ae-f111504e00c7")
+	)
+	(junction
+		(at 182.88 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0c6a247-cb07-4ce6-b222-358b50c81c82")
+	)
+	(junction
+		(at 71.12 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9d5ddf5-fd34-45a5-885b-33246cb99f0a")
+	)
+	(junction
+		(at 162.56 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4faf808-2507-4e17-8435-634fde1080d2")
+	)
+	(junction
+		(at 91.44 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8434aab-6f79-40f6-bdac-e29aec0f149a")
+	)
+	(junction
+		(at 182.88 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9924006-54cb-4a61-96e1-33afaf62ca27")
+	)
+	(junction
+		(at 208.28 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f64101e9-7b56-40ba-ae43-8a58fe8fe33e")
+	)
+	(junction
+		(at 71.12 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb5b490a-6889-4a94-8f0a-71c1b5682840")
 	)
-	(junction
-		(at 149.86 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffa824fb-3e0c-4fed-8815-36938ed22517")
-	)
 	(wire
 		(pts
-			(xy 62.23 100.33) (xy 62.23 102.87)
+			(xy 71.12 81.28) (xy 71.12 83.82)
 		)
 		(stroke
 			(width 0)
@@ -561,27 +743,67 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 87.63) (xy 236.22 88.9)
+			(xy 162.56 120.65) (xy 171.45 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01465aa8-f95e-4d0c-aa5b-b0e9fbf083cd")
+		(uuid "012ebc14-ed74-4037-8a35-e80b33acc977")
 	)
 	(wire
 		(pts
-			(xy 120.65 80.01) (xy 120.65 82.55)
+			(xy 137.16 69.85) (xy 137.16 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07cf8013-cd17-480b-a7c1-a4f56d17d372")
+		(uuid "02494033-5881-4054-96c7-09d5a51c2301")
 	)
 	(wire
 		(pts
-			(xy 62.23 87.63) (xy 62.23 88.9)
+			(xy 182.88 120.65) (xy 182.88 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "035151c4-7408-4c86-93af-aaa8d7e7f77c")
+	)
+	(wire
+		(pts
+			(xy 91.44 120.65) (xy 91.44 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "051e6fc9-f655-420d-b0d2-c0b5331a7bbc")
+	)
+	(wire
+		(pts
+			(xy 116.84 111.76) (xy 116.84 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08343911-c6fb-4cb5-abb2-7a9e3f52824c")
+	)
+	(wire
+		(pts
+			(xy 137.16 128.27) (xy 137.16 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "094eee52-fcb5-4950-af3a-2b6a270ae5e0")
+	)
+	(wire
+		(pts
+			(xy 71.12 68.58) (xy 71.12 69.85)
 		)
 		(stroke
 			(width 0)
@@ -591,7 +813,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 88.9) (xy 62.23 90.17)
+			(xy 228.6 69.85) (xy 228.6 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dbd4165-5c38-445b-89d6-a1262289fe82")
+	)
+	(wire
+		(pts
+			(xy 71.12 69.85) (xy 71.12 71.12)
 		)
 		(stroke
 			(width 0)
@@ -601,107 +833,237 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 87.63) (xy 149.86 88.9)
+			(xy 116.84 69.85) (xy 116.84 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25d557a2-21e3-4d28-a22a-074795194653")
+		(uuid "255fb910-e1e0-492a-8e03-b6ecad5f415e")
 	)
 	(wire
 		(pts
-			(xy 236.22 80.01) (xy 236.22 82.55)
+			(xy 116.84 81.28) (xy 116.84 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2cb53003-c152-4b25-abfe-ffc127cfc3ac")
+		(uuid "28d85b03-fa7f-4868-8344-68c9d4b45251")
 	)
 	(wire
 		(pts
-			(xy 208.28 88.9) (xy 214.63 88.9)
+			(xy 91.44 69.85) (xy 95.25 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "39b32890-73bf-4f63-bf0f-a2a79840c3a2")
+		(uuid "29bdfc33-e960-4547-ba9d-2aaba862ac37")
 	)
 	(wire
 		(pts
-			(xy 91.44 100.33) (xy 91.44 102.87)
+			(xy 116.84 119.38) (xy 116.84 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a4b7dba-0ff2-499d-861b-7485ce7e91f5")
+		(uuid "2b83cdfb-5143-4035-a2a5-c057a53d90f9")
 	)
 	(wire
 		(pts
-			(xy 179.07 88.9) (xy 185.42 88.9)
+			(xy 71.12 132.08) (xy 71.12 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43a27cf1-374a-4bd9-9f0d-ea393d1fa1dc")
+		(uuid "2d437526-89f0-47b4-9426-ad8ea416b9c5")
 	)
 	(wire
 		(pts
-			(xy 179.07 88.9) (xy 179.07 90.17)
+			(xy 162.56 120.65) (xy 162.56 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4758047c-69cb-4c37-bd10-114a716584b1")
+		(uuid "2ee3fbb2-f265-4b66-970f-7fc000c7f523")
 	)
 	(wire
 		(pts
-			(xy 149.86 80.01) (xy 149.86 82.55)
+			(xy 162.56 68.58) (xy 162.56 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5dadb18a-519c-42dd-aaf4-9d3b8d618186")
+		(uuid "313d2b04-de7e-44a4-9c2e-f5ce60c9e6d1")
 	)
 	(wire
 		(pts
-			(xy 120.65 88.9) (xy 120.65 90.17)
+			(xy 137.16 77.47) (xy 137.16 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e4857ab-c771-4be4-ac0e-83b0191b8ef3")
+		(uuid "34019c89-2138-4a20-a09e-66c2b92fb0b0")
 	)
 	(wire
 		(pts
-			(xy 91.44 88.9) (xy 97.79 88.9)
+			(xy 91.44 128.27) (xy 91.44 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6937256e-1573-4c44-a636-8618abf05d41")
+		(uuid "358f9ab8-bbb8-4ae7-82dc-3df2aecb71c0")
 	)
 	(wire
 		(pts
-			(xy 208.28 100.33) (xy 208.28 102.87)
+			(xy 228.6 69.85) (xy 232.41 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c7a675f-5fbc-4eed-9b0a-98af4d650301")
+		(uuid "3af07419-a35b-41ed-ae99-ad66c364dbf3")
 	)
 	(wire
 		(pts
-			(xy 62.23 88.9) (xy 68.58 88.9)
+			(xy 137.16 69.85) (xy 140.97 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b7bd78f-f4c5-4855-a37b-bf6349a1638c")
+	)
+	(wire
+		(pts
+			(xy 116.84 120.65) (xy 116.84 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c13be25-a024-4a48-b712-9f9e2c0f016d")
+	)
+	(wire
+		(pts
+			(xy 91.44 120.65) (xy 95.25 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e67c787-34de-4dc7-8003-662775d2931a")
+	)
+	(wire
+		(pts
+			(xy 116.84 68.58) (xy 116.84 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fcb709f-1751-43d0-b2be-23365f930447")
+	)
+	(wire
+		(pts
+			(xy 116.84 120.65) (xy 125.73 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "428981fd-919c-4227-a0af-1cd4e92cb90d")
+	)
+	(wire
+		(pts
+			(xy 208.28 81.28) (xy 208.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bda9c6b-f89e-449d-8b84-1f2d9b65bdc4")
+	)
+	(wire
+		(pts
+			(xy 208.28 60.96) (xy 208.28 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5436980d-288a-4339-9a7f-9851bf1ab993")
+	)
+	(wire
+		(pts
+			(xy 176.53 69.85) (xy 182.88 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec1a35c-673d-4c13-8393-f8a5bca7c101")
+	)
+	(wire
+		(pts
+			(xy 71.12 120.65) (xy 80.01 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5efd9f9d-6b5c-4514-82e3-5843360c87ce")
+	)
+	(wire
+		(pts
+			(xy 71.12 111.76) (xy 71.12 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c4517b-f7ab-4787-8481-796e90f59ab9")
+	)
+	(wire
+		(pts
+			(xy 162.56 60.96) (xy 162.56 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68dedb73-f82b-4ab6-a406-79635d2bef52")
+	)
+	(wire
+		(pts
+			(xy 116.84 60.96) (xy 116.84 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a8746b9-b021-4c4d-bc94-bdded80bb84d")
+	)
+	(wire
+		(pts
+			(xy 85.09 120.65) (xy 91.44 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708a9a3b-edc5-4088-aa87-51de5f09427b")
+	)
+	(wire
+		(pts
+			(xy 71.12 69.85) (xy 80.01 69.85)
 		)
 		(stroke
 			(width 0)
@@ -711,147 +1073,247 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 87.63) (xy 91.44 88.9)
+			(xy 130.81 120.65) (xy 137.16 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "789849f4-bde1-4ca1-b857-cb6103e8c4a0")
+		(uuid "77291c55-7744-4779-bd12-0a2b08ae17c7")
 	)
 	(wire
 		(pts
-			(xy 179.07 87.63) (xy 179.07 88.9)
+			(xy 182.88 128.27) (xy 182.88 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "792d4a04-ddfd-4d35-8402-ff8cd424205b")
+		(uuid "7803adae-53d8-4606-acb5-1fb53e3530c2")
 	)
 	(wire
 		(pts
-			(xy 120.65 87.63) (xy 120.65 88.9)
+			(xy 222.25 69.85) (xy 228.6 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79fc19bb-8e7c-4b61-ac94-8d47627932a0")
+		(uuid "7aaa7b3d-69aa-4ac0-a2e9-a4df67327675")
 	)
 	(wire
 		(pts
-			(xy 236.22 100.33) (xy 236.22 102.87)
+			(xy 71.12 119.38) (xy 71.12 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b7e3dec-8a7a-4092-9bfa-7fbfe08c1afd")
+		(uuid "80a52b2d-977c-4e4c-b785-b5c42aa92f4f")
 	)
 	(wire
 		(pts
-			(xy 179.07 100.33) (xy 179.07 102.87)
+			(xy 162.56 69.85) (xy 171.45 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ed88357-9e51-43c1-a915-0b1e2f4883a7")
+		(uuid "939aa3dc-9f3b-40d3-91cc-b18022b6c557")
 	)
 	(wire
 		(pts
-			(xy 120.65 88.9) (xy 127 88.9)
+			(xy 208.28 69.85) (xy 217.17 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93fcc344-f397-4c45-b511-5225d44f0783")
+		(uuid "95b8df89-3c64-48d3-97a1-0cecf4f4b901")
 	)
 	(wire
 		(pts
-			(xy 91.44 88.9) (xy 91.44 90.17)
+			(xy 162.56 69.85) (xy 162.56 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "962647c4-4b24-41de-90fc-0864072281b1")
+		(uuid "999011e0-7e37-42c8-aa4d-d090e9438c95")
 	)
 	(wire
 		(pts
-			(xy 149.86 88.9) (xy 149.86 90.17)
+			(xy 228.6 77.47) (xy 228.6 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3fd6253-98bd-40f6-a6a7-b2ef23319879")
+		(uuid "9bf66ea3-79ab-41f1-a636-a99ac9742fdc")
 	)
 	(wire
 		(pts
-			(xy 149.86 100.33) (xy 149.86 102.87)
+			(xy 137.16 120.65) (xy 140.97 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad4bd114-a77c-42c5-a9b5-1e9a7c85cc6c")
+		(uuid "a908c6e6-d169-408a-9a5b-87b862488863")
 	)
 	(wire
 		(pts
-			(xy 120.65 100.33) (xy 120.65 102.87)
+			(xy 162.56 111.76) (xy 162.56 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf540c50-daf1-4abb-a7fb-2ea14b58ad99")
+		(uuid "ac19a4e4-4402-4123-95d9-64f6cdd06272")
 	)
 	(wire
 		(pts
-			(xy 208.28 87.63) (xy 208.28 88.9)
+			(xy 91.44 77.47) (xy 91.44 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0e5d5e8-93e0-4bea-9682-776385b6a019")
+		(uuid "bba6151f-fd9f-4d0f-8d94-8f8392f2a513")
 	)
 	(wire
 		(pts
-			(xy 179.07 80.01) (xy 179.07 82.55)
+			(xy 208.28 68.58) (xy 208.28 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca29b779-1634-4788-9d5c-2c2e2fc72a21")
+		(uuid "bd0c562d-b0a6-4f56-ab08-ba72ba7256a3")
 	)
 	(wire
 		(pts
-			(xy 208.28 88.9) (xy 208.28 90.17)
+			(xy 182.88 120.65) (xy 186.69 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc2bbd9d-f440-4119-b701-9ce4ab97582c")
+		(uuid "becd4cc5-13d2-4eb6-97d8-7772aaa30b85")
 	)
 	(wire
 		(pts
-			(xy 91.44 80.01) (xy 91.44 82.55)
+			(xy 162.56 81.28) (xy 162.56 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d93bf00b-c78a-4095-b177-bac5e663ee60")
+		(uuid "bf441ced-a17a-4caf-9607-7ae0bce99069")
 	)
 	(wire
 		(pts
-			(xy 62.23 80.01) (xy 62.23 82.55)
+			(xy 162.56 132.08) (xy 162.56 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c88a6711-9bc3-43a7-822f-cd5dcc9c179e")
+	)
+	(wire
+		(pts
+			(xy 137.16 120.65) (xy 137.16 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee69870-1051-401b-87a3-20a966bc8953")
+	)
+	(wire
+		(pts
+			(xy 182.88 69.85) (xy 182.88 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7be0273-7ffc-4459-acda-9065bd22b4ea")
+	)
+	(wire
+		(pts
+			(xy 91.44 69.85) (xy 91.44 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9815967-cf39-4cf3-978d-8613781eef11")
+	)
+	(wire
+		(pts
+			(xy 208.28 69.85) (xy 208.28 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db01a269-e758-4bf2-9942-d0572abecad5")
+	)
+	(wire
+		(pts
+			(xy 130.81 69.85) (xy 137.16 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e02d38ad-81c0-40bf-ba37-ce391bae7c50")
+	)
+	(wire
+		(pts
+			(xy 85.09 69.85) (xy 91.44 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e16d85b1-dbd4-44e9-b476-92f77e83f507")
+	)
+	(wire
+		(pts
+			(xy 71.12 120.65) (xy 71.12 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e23425e1-abb3-4daa-afe7-aaecbefa7cd5")
+	)
+	(wire
+		(pts
+			(xy 162.56 119.38) (xy 162.56 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e39244e5-73ca-45de-a402-ecccefe3830b")
+	)
+	(wire
+		(pts
+			(xy 116.84 132.08) (xy 116.84 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86e34e0-639b-4430-abde-6734545e1db5")
+	)
+	(wire
+		(pts
+			(xy 71.12 60.96) (xy 71.12 63.5)
 		)
 		(stroke
 			(width 0)
@@ -861,47 +1323,47 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 80.01) (xy 208.28 82.55)
+			(xy 182.88 77.47) (xy 182.88 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea2b515f-34a2-4a7f-9fff-2611c74890ab")
+		(uuid "f93dd8e3-0cf5-4e1b-89b0-8dabcb71be05")
 	)
 	(wire
 		(pts
-			(xy 236.22 88.9) (xy 236.22 90.17)
+			(xy 116.84 69.85) (xy 125.73 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed2e026f-5635-49b6-a055-20b3ec4a890b")
+		(uuid "fd25d3c2-4627-46b7-83e2-0ad1eb78de14")
 	)
 	(wire
 		(pts
-			(xy 236.22 88.9) (xy 242.57 88.9)
+			(xy 176.53 120.65) (xy 182.88 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f847d34a-bf61-4ada-aa17-660ee9fa0628")
+		(uuid "fe74f551-b1c7-4452-a3e5-2eaaf22d99f1")
 	)
 	(wire
 		(pts
-			(xy 149.86 88.9) (xy 156.21 88.9)
+			(xy 182.88 69.85) (xy 186.69 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fcc256f4-7c28-4187-bcc3-d3e9bd06818a")
+		(uuid "fef200a4-4c02-40b5-9469-c90633f27435")
 	)
 	(hierarchical_label "BTN_CALL_TAKE"
 		(shape output)
-		(at 185.42 88.9 0)
+		(at 95.25 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -912,7 +1374,7 @@
 	)
 	(hierarchical_label "BTN_CALL_CUT"
 		(shape output)
-		(at 214.63 88.9 0)
+		(at 140.97 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -923,7 +1385,7 @@
 	)
 	(hierarchical_label "BTN_NEXT"
 		(shape output)
-		(at 156.21 88.9 0)
+		(at 232.41 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -934,7 +1396,7 @@
 	)
 	(hierarchical_label "BTN_SRC"
 		(shape output)
-		(at 97.79 88.9 0)
+		(at 140.97 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -945,7 +1407,7 @@
 	)
 	(hierarchical_label "BTN_MENU"
 		(shape output)
-		(at 242.57 88.9 0)
+		(at 186.69 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -956,7 +1418,7 @@
 	)
 	(hierarchical_label "BTN_PREV"
 		(shape output)
-		(at 127 88.9 0)
+		(at 186.69 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -967,7 +1429,7 @@
 	)
 	(hierarchical_label "BTN_PLAY{slash}STOP"
 		(shape output)
-		(at 68.58 88.9 0)
+		(at 95.25 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -977,167 +1439,35 @@
 		(uuid "ff3d458d-ae3b-4586-8bde-9d199bfa3d79")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 149.86 102.87 0)
+		(lib_id "Device:C_Small")
+		(at 182.88 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "165ffb11-b7ae-4c73-8d4e-f452d2a01bfc")
-		(property "Reference" "#PWR090"
-			(at 149.86 109.22 0)
+		(uuid "01a57f9e-5ecf-4395-92a1-8eabbe36390b")
+		(property "Reference" "C68"
+			(at 185.42 72.3962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 149.86 107.95 0)
+		(property "Value" "100nF"
+			(at 185.42 74.9362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 149.86 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b3ca2e1-cf61-4258-96a5-85a0c6892cea")
-		)
-		(instances
-			(project "Retro_Stereo_Main_Board"
-				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
-					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 179.07 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "168f23cb-8e73-4386-a760-7e3382d4a750")
-		(property "Reference" "#PWR091"
-			(at 179.07 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 179.07 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 179.07 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50d7031a-8714-4af8-8c57-a63716389dce")
-		)
-		(instances
-			(project "Retro_Stereo_Main_Board"
-				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
-					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 236.22 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26d010d6-dd99-4002-b307-12e190ac7a68")
-		(property "Reference" "SW8"
-			(at 237.49 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 237.49 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 95.25 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 182.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,7 +1476,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 95.25 0)
+			(at 182.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1154,8 +1484,160 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 236.22 95.25 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 185.42 77.4762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C519980"
+			(at 185.42 78.7462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current" ""
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" ""
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT" ""
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT LCSC Part #" ""
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MFR" ""
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MPN" ""
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I rating" ""
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt LCSC Part #" ""
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt MPN" ""
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 182.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1164,10 +1646,763 @@
 			)
 		)
 		(pin "1"
-			(uuid "34415aab-8bf8-4d39-8e6a-23c00afb7ff9")
+			(uuid "72268bc8-a373-4ad2-9b33-7578df99e3d8")
 		)
 		(pin "2"
-			(uuid "0ca9f457-1450-4895-8b37-bf9bb41cbd27")
+			(uuid "8a47a097-eef9-4732-8bd7-2cb200a910d1")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 116.84 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a9657fd-d481-4575-a534-54becbea2adb")
+		(property "Reference" "#PWR0130"
+			(at 116.84 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 116.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 116.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa1f62b4-fe88-482a-803d-513c33fa1546")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 116.84 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b57e6b9-33da-42c9-8583-bb7c96ae3f8c")
+		(property "Reference" "SW7"
+			(at 118.11 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 118.11 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 116.84 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 116.84 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 116.84 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2eec2d3-3d8e-4a46-bbe0-528e748fb048")
+		)
+		(pin "2"
+			(uuid "fa1c7d7f-8c44-44e1-927c-c9071346645a")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 71.12 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c83b851-dc90-431a-b7f1-bfb3d2da023d")
+		(property "Reference" "#PWR094"
+			(at 71.12 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 71.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 71.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4506b988-fca3-4416-a199-783f89b6ab34")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.88 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24412cdc-12c6-43b0-ab8f-c2c26dc9205d")
+		(property "Reference" "#PWR0135"
+			(at 182.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0035d848-9a01-4b30-a0a1-cf28f4195b06")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 162.56 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "271a4766-df59-4910-83d8-639c1c2076b7")
+		(property "Reference" "#PWR088"
+			(at 162.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 162.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 162.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff6f92fb-8162-49be-8e97-620b9780e92a")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 91.44 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2884fff8-23af-47d9-8936-17fda98ab099")
+		(property "Reference" "C64"
+			(at 93.98 72.3962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 93.98 74.9362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 93.98 77.4762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C519980"
+			(at 93.98 78.7462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT LCSC Part #" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MFR" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MPN" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I rating" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt LCSC Part #" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt MPN" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49048777-d382-40c7-8dcd-1c84fc9c1890")
+		)
+		(pin "2"
+			(uuid "4b33d196-751e-4b84-a004-ac11dfd90e85")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 162.56 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "307ff7a6-a114-4d39-a7a4-e109ebc05510")
+		(property "Reference" "SW4"
+			(at 163.83 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 163.83 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 162.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 162.56 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 162.56 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12313973-9ae6-48b6-bd3d-c74c3503279a")
+		)
+		(pin "2"
+			(uuid "1d24b51d-a675-4703-a33e-cf82f4f2976f")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 162.56 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33ec930c-b69e-46a1-bbb1-00444f6d1fd5")
+		(property "Reference" "SW8"
+			(at 163.83 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 163.83 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 162.56 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 162.56 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 162.56 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "478e478a-e678-43bc-a2e0-5f16e4e85391")
+		)
+		(pin "2"
+			(uuid "793f13d1-982e-4f34-bf52-970c649871f4")
 		)
 		(instances
 			(project "Retro_Stereo_Main_Board"
@@ -1179,35 +2414,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 91.44 85.09 0)
+		(lib_id "power:GND")
+		(at 71.12 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "373c7468-507f-4b03-8484-60a5cf74f2fd")
-		(property "Reference" "R5"
-			(at 93.98 83.8199 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Small"
-			(at 93.98 86.3599 0)
+		(uuid "35f62e39-e4ab-465f-8de3-6f09a989b714")
+		(property "Reference" "#PWR095"
+			(at 71.12 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 85.09 0)
+			(at 71.12 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1215,8 +2449,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 91.44 85.09 0)
+		(property "Datasheet" ""
+			(at 71.12 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1224,78 +2458,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 91.44 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a99d95bc-6f7e-4020-83b2-863a40add0f5")
-		)
-		(pin "1"
-			(uuid "735a37b0-b1c7-4b39-82ba-881f29b1edab")
-		)
-		(instances
-			(project "Retro_Stereo_Main_Board"
-				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 179.07 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "387b30ac-08e0-4c5e-9b49-1adeb77be4e4")
-		(property "Reference" "SW6"
-			(at 180.34 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 180.34 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 179.07 95.25 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1304,15 +2468,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee9247ce-298d-4508-b4a7-563c656a6d0e")
-		)
-		(pin "2"
-			(uuid "339c1594-76bf-414d-b9f9-c8f298d952ae")
+			(uuid "04b4a70c-7cdc-4519-aaa0-33a4a02c1b45")
 		)
 		(instances
 			(project "Retro_Stereo_Main_Board"
 				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
-					(reference "SW6")
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3695de98-f078-4497-973b-b2d9b7bd396b")
+		(property "Reference" "#PWR0134"
+			(at 162.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88cfc5dc-7f0f-4b7f-ac8c-f77244c12005")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -1320,15 +2547,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 62.23 95.25 90)
+		(at 71.12 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3bb32e3f-c2e0-40c2-8d10-ae92481ecbb2")
 		(property "Reference" "SW2"
-			(at 63.5 93.9799 90)
+			(at 72.39 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,16 +2565,17 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 63.5 96.5199 90)
+			(at 72.39 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 95.25 0)
+			(at 66.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1355,7 +2584,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 95.25 0)
+			(at 66.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1364,7 +2593,25 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 62.23 95.25 0)
+			(at 71.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 71.12 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 71.12 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1389,16 +2636,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 208.28 85.09 0)
+		(at 116.84 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42a6e73f-f9c5-459c-9e19-1c0dcacb7181")
-		(property "Reference" "R11"
-			(at 210.82 83.8199 0)
+		(uuid "3bf95e54-6b07-4a1b-9b4b-9e936a59d5cb")
+		(property "Reference" "R27"
+			(at 119.38 115.5699 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1406,8 +2652,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
-			(at 210.82 86.3599 0)
+		(property "Value" "10k"
+			(at 119.38 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1416,7 +2662,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 85.09 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1425,7 +2671,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 85.09 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1434,7 +2680,25 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 208.28 85.09 0)
+			(at 116.84 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 116.84 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1443,15 +2707,104 @@
 			)
 		)
 		(pin "2"
-			(uuid "64ed975a-126b-47e8-9414-c1ab9e2b701b")
+			(uuid "6e2f843e-e297-4fa6-86f4-01f287e0cb22")
 		)
 		(pin "1"
-			(uuid "97274632-5c91-49ba-93cc-7734dfc53919")
+			(uuid "bc6711c1-a483-4e0a-933d-f578470fe962")
 		)
 		(instances
 			(project "Retro_Stereo_Main_Board"
 				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
-					(reference "R11")
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 116.84 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "511befca-7269-4d47-81bb-3665961ce5a5")
+		(property "Reference" "SW3"
+			(at 118.11 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 118.11 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 116.84 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 116.84 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 116.84 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35ac2f94-5da8-4520-9a08-25e98586318f")
+		)
+		(pin "2"
+			(uuid "c3420664-f530-425a-b676-33fac88c8fdd")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -1459,205 +2812,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "439050e0-cf47-4ed6-a9d2-7f5bf63fa014")
-		(property "Reference" "#PWR092"
-			(at 179.07 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.07 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2301806-ff68-4da9-abf2-7a4cbe1a135b")
-		)
-		(instances
-			(project "Retro_Stereo_Main_Board"
-				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
-					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 120.65 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5692008c-9d23-4ea8-bd27-4a3ad927f06a")
-		(property "Reference" "#PWR087"
-			(at 120.65 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 120.65 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 120.65 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c61cf00c-2a57-4fbc-9520-70505db63da1")
-		)
-		(instances
-			(project "Retro_Stereo_Main_Board"
-				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
-					(reference "#PWR087")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 236.22 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "569a65a7-affd-4698-9dae-9ccb6d935c11")
-		(property "Reference" "#PWR095"
-			(at 236.22 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 236.22 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 236.22 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0b51d66-4f58-42dc-83e1-431fbcd56ab7")
-		)
-		(instances
-			(project "Retro_Stereo_Main_Board"
-				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
-					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 62.23 102.87 0)
+		(at 71.12 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1666,7 +2821,7 @@
 		(fields_autoplaced yes)
 		(uuid "585c73a0-bc0e-4237-9876-a78b4df2aa2a")
 		(property "Reference" "#PWR083"
-			(at 62.23 109.22 0)
+			(at 71.12 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +2830,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 107.95 0)
+			(at 71.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,7 +2838,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 102.87 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +2847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 102.87 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,7 +2856,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 102.87 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,16 +2878,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 102.87 0)
+		(at 228.6 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5a430528-655e-4bf9-a28e-81c1040a0fcb")
-		(property "Reference" "#PWR094"
-			(at 208.28 109.22 0)
+		(uuid "5a47e8b6-dd4b-4132-b7aa-5d53ad90ce48")
+		(property "Reference" "#PWR093"
+			(at 228.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,7 +2896,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 107.95 0)
+			(at 228.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1749,7 +2904,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 102.87 0)
+			(at 228.6 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1758,7 +2913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 102.87 0)
+			(at 228.6 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1767,7 +2922,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 102.87 0)
+			(at 228.6 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1776,143 +2931,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d33ae209-d29f-435e-94b9-9be71d32a301")
-		)
-		(instances
-			(project "Retro_Stereo_Main_Board"
-				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
-					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 208.28 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6dd77432-dcd2-4741-9a24-64934aa1220b")
-		(property "Reference" "SW7"
-			(at 209.55 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 209.55 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 208.28 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f31fc9b-78a5-4d65-a23b-4744fefd2a42")
-		)
-		(pin "2"
-			(uuid "583b05bd-0ec9-4e73-94b8-dd052492facf")
-		)
-		(instances
-			(project "Retro_Stereo_Main_Board"
-				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
-					(reference "SW7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 208.28 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75adba96-7663-4fd0-8f37-1fbae5f7a70f")
-		(property "Reference" "#PWR093"
-			(at 208.28 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 208.28 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 208.28 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3deb090-fa31-4a1f-8791-9e7cfdd206b0")
+			(uuid "ac1e99ce-d3a2-4033-8cc3-27223cce9c27")
 		)
 		(instances
 			(project "Retro_Stereo_Main_Board"
@@ -1924,35 +2943,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 91.44 95.25 90)
+		(lib_id "power:+3.3V")
+		(at 162.56 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8236e07d-c076-4c7a-9c13-52d37e60fc0a")
-		(property "Reference" "SW3"
-			(at 92.71 93.9799 90)
+		(uuid "65f5dcc6-2e8c-4f82-85db-81e180d3b0b1")
+		(property "Reference" "#PWR0133"
+			(at 162.56 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 92.71 96.5199 90)
+		(property "Value" "+3.3V"
+			(at 162.56 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 95.25 0)
+			(at 162.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,8 +2978,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 86.36 95.25 0)
+		(property "Datasheet" ""
+			(at 162.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1969,8 +2987,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 91.44 95.25 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 162.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1979,40 +2997,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "33659a3e-2546-4938-8776-95a671dfec14")
-		)
-		(pin "2"
-			(uuid "c676fad3-2551-4ae7-ac20-87cd9567b401")
+			(uuid "dece3e06-7d4c-4dbe-be31-53d6633b9ae0")
 		)
 		(instances
 			(project "Retro_Stereo_Main_Board"
 				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
-					(reference "SW3")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 62.23 85.09 0)
+		(lib_id "Device:C_Small")
+		(at 137.16 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "83344378-d3b1-4a45-875b-90ad686dec56")
-		(property "Reference" "R4"
-			(at 64.77 83.8199 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Small"
-			(at 64.77 86.3599 0)
+		(fields_autoplaced yes)
+		(uuid "71095028-b066-461a-b133-60d620e4ff8c")
+		(property "Reference" "C71"
+			(at 139.7 123.1962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,8 +3027,17 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 62.23 85.09 0)
+		(property "Value" "100nF"
+			(at 139.7 125.7362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 137.16 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +3046,383 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 85.09 0)
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 139.7 128.2762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C519980"
+			(at 139.7 129.5462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current" ""
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" ""
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT" ""
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT LCSC Part #" ""
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MFR" ""
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MPN" ""
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I rating" ""
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt LCSC Part #" ""
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt MPN" ""
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 137.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3361f5d1-cbd5-45a6-8797-9ecea4b6380a")
+		)
+		(pin "2"
+			(uuid "7ed0b3ce-a69d-44c2-8c6a-58eabf6de733")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "C71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 116.84 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79f50399-ad6a-4801-acff-af870ec120b1")
+		(property "Reference" "#PWR085"
+			(at 116.84 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 116.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 116.84 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4da78353-dc16-44f8-a8d7-b0e327350e5e")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 71.12 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f405b93-0b1c-4c36-ab71-070fe8b3b1e1")
+		(property "Reference" "SW6"
+			(at 72.39 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 72.39 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 71.12 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 71.12 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 71.12 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cd3ef5d-79fb-493a-afc9-d257661014ba")
+		)
+		(pin "2"
+			(uuid "7b408d1e-2ab4-47ac-a9bc-87602624b7af")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 71.12 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83344378-d3b1-4a45-875b-90ad686dec56")
+		(property "Reference" "R4"
+			(at 73.66 64.7699 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 73.66 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2039,7 +3431,25 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 62.23 85.09 0)
+			(at 71.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 71.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 71.12 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2064,16 +3474,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 120.65 95.25 90)
+		(at 208.28 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8aab7f1e-3bb1-4ff8-b7b8-59dfd49ef2a9")
-		(property "Reference" "SW4"
-			(at 121.92 93.9799 90)
+		(uuid "8694d61e-449f-46ee-b7df-ddafe8422976")
+		(property "Reference" "SW5"
+			(at 209.55 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2082,16 +3492,17 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 121.92 96.5199 90)
+			(at 209.55 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 95.25 0)
+			(at 203.2 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2100,7 +3511,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 95.25 0)
+			(at 203.2 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2109,7 +3520,25 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 120.65 95.25 0)
+			(at 208.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 208.28 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 208.28 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2118,221 +3547,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "dce9cce4-7095-4804-94e3-346e556bd14c")
+			(uuid "9ccbcfea-8800-4165-a814-774d1e1c78f8")
 		)
 		(pin "2"
-			(uuid "1db4aaa2-1ad5-4e0e-929f-bffb37cda40b")
+			(uuid "6383bcd6-a809-49c4-a1bd-41a74375ab16")
 		)
 		(instances
 			(project "Retro_Stereo_Main_Board"
 				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 120.65 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ba5967c-54b3-446d-beb7-54b207c30fd8")
-		(property "Reference" "R8"
-			(at 123.19 83.8199 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Small"
-			(at 123.19 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 120.65 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7ec6ba50-6723-4846-bfe2-df057a3a17ce")
-		)
-		(pin "1"
-			(uuid "18ca0074-7890-4eae-82e7-de18da0ba155")
-		)
-		(instances
-			(project "Retro_Stereo_Main_Board"
-				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 91.44 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c604b01-44bf-4b4e-a7fe-c195e0feaf05")
-		(property "Reference" "#PWR085"
-			(at 91.44 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 91.44 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 91.44 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9302dc1-b9e7-4487-932d-5d03c7c865f0")
-		)
-		(instances
-			(project "Retro_Stereo_Main_Board"
-				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
-					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 179.07 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93db87ad-ac93-4ea8-a4c4-4d10c2a73f2d")
-		(property "Reference" "R10"
-			(at 181.61 83.8199 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Small"
-			(at 181.61 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 179.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "51909a4f-3378-4489-a37d-0ac7b737a449")
-		)
-		(pin "1"
-			(uuid "0e2a57cd-0395-44f3-bdad-1b6c4a0f6d55")
-		)
-		(instances
-			(project "Retro_Stereo_Main_Board"
-				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
-					(reference "R10")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -2340,16 +3563,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 102.87 0)
+		(at 116.84 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a60a01fc-9128-4cde-9023-742c52d93702")
+		(uuid "8c19dce1-5f96-49b3-bbc6-2032f75b132f")
 		(property "Reference" "#PWR086"
-			(at 91.44 109.22 0)
+			(at 116.84 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,7 +3581,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 107.95 0)
+			(at 116.84 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,7 +3589,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 102.87 0)
+			(at 116.84 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2375,7 +3598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 102.87 0)
+			(at 116.84 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2384,7 +3607,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 102.87 0)
+			(at 116.84 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,7 +3616,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "361e7fd8-50af-4246-a147-b1facf27ccb6")
+			(uuid "7c307ac1-62ef-4f14-884a-98f6c533fc8b")
 		)
 		(instances
 			(project "Retro_Stereo_Main_Board"
@@ -2405,17 +3628,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 62.23 80.01 0)
+		(lib_id "power:GND")
+		(at 91.44 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a64537d6-3dcd-4f62-8f60-79cfff5d7461")
-		(property "Reference" "#PWR084"
-			(at 62.23 83.82 0)
+		(uuid "94486311-7f16-4dbc-b9cb-a0d826efe411")
+		(property "Reference" "#PWR096"
+			(at 91.44 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,8 +3646,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 62.23 74.93 0)
+		(property "Value" "GND"
+			(at 91.44 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2432,7 +3655,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 80.01 0)
+			(at 91.44 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,7 +3664,637 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 80.01 0)
+			(at 91.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dcc5a08-1d4a-4886-8037-90dc9f2a6b51")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94c372a2-df85-4763-b5f0-0fde09d7427a")
+		(property "Reference" "#PWR0132"
+			(at 137.16 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1adeffc-046b-4f82-b787-79ec14ce71fb")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 228.6 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b203af2-0c1b-45ff-aaa5-1bc73118d621")
+		(property "Reference" "C69"
+			(at 231.14 72.3962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 231.14 74.9362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 231.14 77.4762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C519980"
+			(at 231.14 78.7462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current" ""
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" ""
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT" ""
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT LCSC Part #" ""
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MFR" ""
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MPN" ""
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I rating" ""
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt LCSC Part #" ""
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt MPN" ""
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 228.6 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dffb3e0c-5455-44dd-9a8e-5f987338853f")
+		)
+		(pin "2"
+			(uuid "b9b0711a-d5e6-4de3-8c18-052f25a84c99")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "C69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 219.71 69.85 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a31aef53-dc69-4b11-a07d-c0dac4d04d7c")
+		(property "Reference" "R12"
+			(at 219.71 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 219.71 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C84376"
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" ""
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" ""
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT" ""
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT LCSC Part #" ""
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MFR" ""
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MPN" ""
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I rating" ""
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt LCSC Part #" ""
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt MPN" ""
+			(at 219.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 219.71 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 219.71 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a944e06a-19ad-4bc8-939f-dca472506e56")
+		)
+		(pin "1"
+			(uuid "1286a046-4c2e-479c-91d7-3206fb8ac7d7")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a411c5d7-e3cd-4fd5-9088-8b0d989b45e9")
+		(property "Reference" "#PWR089"
+			(at 162.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfde8893-142f-437d-979b-5c243bc11955")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 71.12 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a64537d6-3dcd-4f62-8f60-79cfff5d7461")
+		(property "Reference" "#PWR084"
+			(at 71.12 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 71.12 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,7 +4303,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 62.23 80.01 0)
+			(at 71.12 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,16 +4325,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 236.22 85.09 0)
+		(at 71.12 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b43d497d-f7db-4def-9ce0-20e43f21f1f9")
-		(property "Reference" "R12"
-			(at 238.76 83.8199 0)
+		(uuid "a7269bc8-2ef5-4f60-a6cc-e0e50876df60")
+		(property "Reference" "R21"
+			(at 73.66 115.5699 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2489,8 +4341,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
-			(at 238.76 86.3599 0)
+		(property "Value" "10k"
+			(at 73.66 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +4351,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 85.09 0)
+			(at 71.12 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +4360,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 85.09 0)
+			(at 71.12 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +4369,25 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 236.22 85.09 0)
+			(at 71.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 71.12 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 71.12 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2526,50 +4396,116 @@
 			)
 		)
 		(pin "2"
-			(uuid "69b46c88-589d-48c8-ab28-10be3583e306")
+			(uuid "ae703e2e-839e-48bd-9026-36405a271abc")
 		)
 		(pin "1"
-			(uuid "a047badf-8f28-4a2f-8bce-fab4967de9bf")
+			(uuid "061dc248-9bdb-44e6-96fd-06af81875eff")
 		)
 		(instances
 			(project "Retro_Stereo_Main_Board"
 				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
-					(reference "R12")
+					(reference "R21")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 149.86 95.25 90)
+		(lib_id "power:GND")
+		(at 182.88 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d9e9f4aa-5d92-46d7-b8b2-9404546e6cb5")
-		(property "Reference" "SW5"
-			(at 151.13 93.9799 90)
+		(uuid "a775f716-47dc-4d44-86a1-64e53dcf47b8")
+		(property "Reference" "#PWR090"
+			(at 182.88 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 151.13 96.5199 90)
+		(property "Value" "GND"
+			(at 182.88 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 95.25 0)
+			(at 182.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0a8f486-b5c8-49c5-af23-f54fc658a565")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 91.44 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac0fa8e6-d4d3-403d-b648-cf931efcb2f1")
+		(property "Reference" "C70"
+			(at 93.98 123.1962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 93.98 125.7362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 91.44 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2578,7 +4514,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 95.25 0)
+			(at 91.44 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,8 +4522,160 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 149.86 95.25 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 91.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 93.98 128.2762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C519980"
+			(at 93.98 129.5462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current" ""
+			(at 91.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 91.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" ""
+			(at 91.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT" ""
+			(at 91.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT LCSC Part #" ""
+			(at 91.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MFR" ""
+			(at 91.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MPN" ""
+			(at 91.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 91.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I rating" ""
+			(at 91.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 91.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 91.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt LCSC Part #" ""
+			(at 91.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt MPN" ""
+			(at 91.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 91.44 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 91.44 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,15 +4684,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "98890b80-977f-49d2-bbe2-62d10978b739")
+			(uuid "9ab4acd6-1223-46f2-a22e-24e7e0d2d39e")
 		)
 		(pin "2"
-			(uuid "624646f8-b810-4be1-aa79-7f3695e0665a")
+			(uuid "55dafdae-e2cb-4f2b-ae1f-36a0aa6a98f3")
 		)
 		(instances
 			(project "Retro_Stereo_Main_Board"
 				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
-					(reference "SW5")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -2612,16 +4700,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 149.86 85.09 0)
+		(at 162.56 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df32a469-d9aa-4a49-a1ad-bd2a94ce1411")
-		(property "Reference" "R9"
-			(at 152.4 83.8199 0)
+		(uuid "ae984279-bf34-4f73-b8ba-77f858bd5bca")
+		(property "Reference" "R29"
+			(at 165.1 115.5699 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2629,8 +4716,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
-			(at 152.4 86.3599 0)
+		(property "Value" "10k"
+			(at 165.1 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,7 +4726,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 85.09 0)
+			(at 162.56 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,7 +4735,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 85.09 0)
+			(at 162.56 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +4744,25 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 149.86 85.09 0)
+			(at 162.56 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 162.56 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 162.56 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,10 +4771,2239 @@
 			)
 		)
 		(pin "2"
-			(uuid "7f335648-3204-4421-bcc6-9b2ca14d3bd9")
+			(uuid "8307541e-e823-4987-b2ee-837ef1268a7f")
 		)
 		(pin "1"
-			(uuid "f1724944-117e-420f-b539-2e190e4e6a4c")
+			(uuid "daf26fe0-6154-4b1e-a2a7-7306fbd5af64")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 82.55 69.85 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b302283b-ed59-44be-8063-e3799c99e1c3")
+		(property "Reference" "R20"
+			(at 82.55 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 82.55 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C84376"
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" ""
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" ""
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT" ""
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT LCSC Part #" ""
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MFR" ""
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MPN" ""
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I rating" ""
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt LCSC Part #" ""
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt MPN" ""
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 82.55 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 82.55 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "343e6852-5e74-49b3-8209-d89d6a390fe5")
+		)
+		(pin "1"
+			(uuid "d09bca5d-9db6-4a5d-b5bc-df3964af6284")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 208.28 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4144a30-a589-4150-89aa-ea829c4ffb01")
+		(property "Reference" "R11"
+			(at 210.82 64.7699 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 210.82 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 208.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 208.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 208.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac69d300-b44b-41ea-bdc6-e542c21d4fda")
+		)
+		(pin "1"
+			(uuid "a8491c31-ce5c-467d-b389-9eceec61667b")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 137.16 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b75bbc4c-1b96-45f4-aca0-2de4f598b872")
+		(property "Reference" "C67"
+			(at 139.7 72.3962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 139.7 74.9362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 139.7 77.4762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C519980"
+			(at 139.7 78.7462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current" ""
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" ""
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT" ""
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT LCSC Part #" ""
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MFR" ""
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MPN" ""
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I rating" ""
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt LCSC Part #" ""
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt MPN" ""
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a5d1c1f-d9b4-46d4-bb79-efabbc0e63ca")
+		)
+		(pin "2"
+			(uuid "0724a79d-6af1-4ef3-b47d-9c2a435aa6c1")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "C67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba13da1a-0453-49e0-91e2-7ed1c276a1f6")
+		(property "Reference" "#PWR0131"
+			(at 116.84 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "130f3631-b61f-4a3e-a130-b4883899f08d")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 128.27 120.65 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c954691b-a14f-4bd6-8df8-0c00e94ea87d")
+		(property "Reference" "R28"
+			(at 128.27 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 128.27 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C84376"
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT LCSC Part #" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MFR" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MPN" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I rating" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt LCSC Part #" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt MPN" ""
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 128.27 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 128.27 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cfa7abd7-1b20-4b80-b896-ee76ab5ebf36")
+		)
+		(pin "1"
+			(uuid "74f43d50-e8fb-4387-a940-174e24027f7a")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 173.99 69.85 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca0aff34-5f91-4bb5-bf13-24db3e82c3c2")
+		(property "Reference" "R10"
+			(at 173.99 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 173.99 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C84376"
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" ""
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" ""
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT" ""
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT LCSC Part #" ""
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MFR" ""
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MPN" ""
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I rating" ""
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt LCSC Part #" ""
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt MPN" ""
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 173.99 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 173.99 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "254c11a4-ea1f-48e0-8b97-9d94dc93649c")
+		)
+		(pin "1"
+			(uuid "c505305a-7a05-450b-bd39-335600a33faf")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 116.84 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cda9220f-13a4-49b4-a4cd-a972e4b82861")
+		(property "Reference" "R5"
+			(at 119.38 64.7699 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 119.38 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 116.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 116.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 116.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20df91c6-a0ac-4e0a-940a-ed5082de5eba")
+		)
+		(pin "1"
+			(uuid "229302ee-0703-44b0-9b89-23c9e78db5fa")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 128.27 69.85 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd67527b-888f-4a59-8c9e-05ce0dcab2f1")
+		(property "Reference" "R8"
+			(at 128.27 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 128.27 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C84376"
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" ""
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" ""
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT" ""
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT LCSC Part #" ""
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MFR" ""
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MPN" ""
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I rating" ""
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt LCSC Part #" ""
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt MPN" ""
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 128.27 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 128.27 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6ed1c41-91df-4e9d-bd50-a1ed945a10c1")
+		)
+		(pin "1"
+			(uuid "c7c29077-4ae2-42fb-8ab9-4cde2513e562")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 208.28 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfd8ca4b-1a24-4ccc-b6c7-c8da94f00dc1")
+		(property "Reference" "#PWR091"
+			(at 208.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 208.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 208.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6b7f4f7-be3b-4a16-8981-34b7e36f66fa")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e058f476-f302-4b99-8820-d363fdf77f6a")
+		(property "Reference" "#PWR0129"
+			(at 91.44 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38de4f94-7ba2-436a-b1ae-38dd2d6c9ffd")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 182.88 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2ba9975-5120-4a14-8322-9fd287ba85bf")
+		(property "Reference" "C72"
+			(at 185.42 123.1962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 185.42 125.7362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 185.42 128.2762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C519980"
+			(at 185.42 129.5462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current" ""
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" ""
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT" ""
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT LCSC Part #" ""
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MFR" ""
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MPN" ""
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I rating" ""
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt LCSC Part #" ""
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt MPN" ""
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 182.88 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9195c49e-c5b6-4f5d-9604-660aaa346701")
+		)
+		(pin "2"
+			(uuid "00cc8daf-996c-424a-92f8-5ce5f9999247")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "C72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e759fb01-9bc4-4906-bb63-3cf830dfaafb")
+		(property "Reference" "#PWR092"
+			(at 208.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5b4fb9a-4c0f-436b-add1-2983a36a144b")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 82.55 120.65 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0abb8c5-7c3a-4ebf-9814-dace52f97270")
+		(property "Reference" "R26"
+			(at 82.55 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 82.55 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C84376"
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" ""
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" ""
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT" ""
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT LCSC Part #" ""
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MFR" ""
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MPN" ""
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I rating" ""
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt LCSC Part #" ""
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt MPN" ""
+			(at 82.55 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 82.55 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 82.55 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a39828a-7492-4bb3-a5fe-d9ff179d5822")
+		)
+		(pin "1"
+			(uuid "3cb57250-5b49-4fbc-878d-c6390dce517b")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 173.99 120.65 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2d4a69c-7b95-4281-8be6-9812e1d2f18b")
+		(property "Reference" "R30"
+			(at 173.99 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 173.99 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C84376"
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" ""
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" ""
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ALT" ""
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT LCSC Part #" ""
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MFR" ""
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT MPN" ""
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" ""
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I rating" ""
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" ""
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" ""
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt LCSC Part #" ""
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "alt MPN" ""
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 173.99 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 173.99 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3fbf4c17-9d59-4963-8c79-9f1331e499c5")
+		)
+		(pin "1"
+			(uuid "d1d12b63-a835-4fb7-b24b-1fe368ce2fed")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 162.56 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8de29a5-1b9a-4890-9bf5-6d5648cac59e")
+		(property "Reference" "R9"
+			(at 165.1 64.7699 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 165.1 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 162.56 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 162.56 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 162.56 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a4429d3e-a34d-49bb-a14c-6a10d27eab9b")
+		)
+		(pin "1"
+			(uuid "2b7689d8-1154-4468-b7a9-44033b3df37f")
 		)
 		(instances
 			(project "Retro_Stereo_Main_Board"
@@ -2682,16 +7016,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 102.87 0)
+		(at 137.16 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e33ebced-566b-4e08-b9ab-41966a5df7a1")
-		(property "Reference" "#PWR088"
-			(at 120.65 109.22 0)
+		(uuid "ff057f87-eaeb-43e8-b6aa-4a2991570d05")
+		(property "Reference" "#PWR087"
+			(at 137.16 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,7 +7034,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 107.95 0)
+			(at 137.16 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +7042,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 102.87 0)
+			(at 137.16 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,7 +7051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 102.87 0)
+			(at 137.16 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,7 +7060,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 102.87 0)
+			(at 137.16 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,144 +7069,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1987afd4-17af-409f-97f3-df35bbbbd7b3")
+			(uuid "68de3cb5-a087-4a7a-9cd7-f95a648bf1b9")
 		)
 		(instances
 			(project "Retro_Stereo_Main_Board"
 				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
-					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 149.86 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9138bbe-5c60-4890-abef-660a43abec5b")
-		(property "Reference" "#PWR089"
-			(at 149.86 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 149.86 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 149.86 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "511b6ed0-aa2f-47dc-a2fc-f4d3f2f03b49")
-		)
-		(instances
-			(project "Retro_Stereo_Main_Board"
-				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
-					(reference "#PWR089")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 236.22 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9bf0ab0-68ea-464f-bf37-26e6e5e2a65e")
-		(property "Reference" "#PWR096"
-			(at 236.22 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 236.22 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "400f5f7b-b937-44d2-b3aa-2484b3ac3550")
-		)
-		(instances
-			(project "Retro_Stereo_Main_Board"
-				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/c636e63b-1310-4387-ac82-4e9183119085"
-					(reference "#PWR096")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)

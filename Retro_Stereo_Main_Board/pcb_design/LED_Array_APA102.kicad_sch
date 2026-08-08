@@ -1,0 +1,8977 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e9c88614-9355-419a-a46b-6c909be0b8f2")
+	(paper "A4")
+	(lib_symbols
+		(symbol "LED:APA102-2020"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "APA102-2020"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED-APA102-2020"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED addressable 8bit pwm 5bit greyscale"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*APA102*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "APA102-2020_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "APA102-2020_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "APA102-2020_1_1"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "CKI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "CKO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 179.07 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ca0404f-4c62-427e-8c50-81984877a76a")
+	)
+	(junction
+		(at 114.3 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ec3a21c-6014-4b27-a53e-32e5f3923bb8")
+	)
+	(junction
+		(at 243.84 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c7bdfa0-7757-450c-a7d1-56e68a570ac1")
+	)
+	(junction
+		(at 49.53 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d3b08c3-3cc3-413e-899f-851ebf3d109c")
+	)
+	(junction
+		(at 179.07 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f8666ed-8260-4947-ad7d-efd6d3ee546c")
+	)
+	(junction
+		(at 49.53 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5116178a-4141-40a3-8935-241bdec2348a")
+	)
+	(junction
+		(at 71.12 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51d62fe8-063a-40b4-93e0-8d2491d2df97")
+	)
+	(junction
+		(at 157.48 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "646f04d1-254e-451d-bc38-6c0e1f157cc5")
+	)
+	(junction
+		(at 114.3 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6be1a369-3a10-4dd5-850e-cd6fadce0026")
+	)
+	(junction
+		(at 27.94 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73d10acc-7a22-4c07-85cc-2cb744f4f720")
+	)
+	(junction
+		(at 49.53 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a656af0-9024-4e0b-9ab8-74c9f79a4a85")
+	)
+	(junction
+		(at 157.48 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88c009ea-e922-45de-a377-aa70d0817800")
+	)
+	(junction
+		(at 243.84 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b7cb9d8-2ff6-4dee-9953-7252ffe6fa51")
+	)
+	(junction
+		(at 243.84 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ee3fde2-12df-48c3-b1b8-4722c04568ce")
+	)
+	(junction
+		(at 135.89 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f7d1aa6-4d82-49d9-bc9e-cde8df9629c0")
+	)
+	(junction
+		(at 114.3 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91dfc5e2-b5bd-424f-8654-c13422250755")
+	)
+	(junction
+		(at 135.89 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92469f2e-43d4-4b8f-9d09-306af9d4f09a")
+	)
+	(junction
+		(at 222.25 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4901e70-9f14-429b-96fc-0ee2018516ae")
+	)
+	(junction
+		(at 71.12 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2f8e834-5553-4406-acc7-7a38bb43fcd7")
+	)
+	(junction
+		(at 200.66 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3878132-99b9-4f59-b155-d91fb39979b4")
+	)
+	(junction
+		(at 135.89 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5424f17-cd3c-4807-98f8-d5fc3373417d")
+	)
+	(junction
+		(at 157.48 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb5af0d6-b87d-4f49-97d9-431303c73289")
+	)
+	(junction
+		(at 200.66 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c03b40db-bab1-45e9-b596-c76458587d6a")
+	)
+	(junction
+		(at 92.71 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8bae020-cfa7-45c5-aa73-e90b960b33ba")
+	)
+	(junction
+		(at 179.07 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9044e53-6f9b-40a1-9a88-1d6af6786745")
+	)
+	(junction
+		(at 71.12 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb5d856b-79e7-4b39-9b41-ee4f45ffea94")
+	)
+	(junction
+		(at 222.25 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3a9facb-bc23-4c64-ad41-5529a97bd691")
+	)
+	(junction
+		(at 222.25 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3f1ce00-8d0d-4c4f-8767-e73df23db8a4")
+	)
+	(junction
+		(at 200.66 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efadfacd-c877-4052-b506-534c157c49a0")
+	)
+	(junction
+		(at 92.71 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f694d09a-db1c-4caf-9b0d-0de275cd8ab1")
+	)
+	(junction
+		(at 92.71 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc1ed9da-3116-4606-b50a-44b62179c325")
+	)
+	(no_connect
+		(at 273.05 143.51)
+		(uuid "54ff397b-688c-4280-b95a-febee2a6283d")
+	)
+	(no_connect
+		(at 273.05 146.05)
+		(uuid "830fe017-49e7-4963-977e-10f1ca911c6a")
+	)
+	(wire
+		(pts
+			(xy 57.15 95.25) (xy 63.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0671d021-7fdc-4d31-a676-b7c9b58bae9c")
+	)
+	(wire
+		(pts
+			(xy 143.51 143.51) (xy 149.86 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07819c70-05da-4b4d-8157-98f9bce3d400")
+	)
+	(wire
+		(pts
+			(xy 200.66 134.62) (xy 222.25 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0925144b-e968-41dc-9d7f-b59afa5625c5")
+	)
+	(wire
+		(pts
+			(xy 143.51 97.79) (xy 149.86 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a2e5b9b-3e07-4dd1-834d-6f34328eb49f")
+	)
+	(wire
+		(pts
+			(xy 279.4 120.65) (xy 16.51 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ccc23f9-4d2c-467a-9453-0b6ef9a46902")
+	)
+	(wire
+		(pts
+			(xy 200.66 105.41) (xy 200.66 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ea811fd-d8f8-44bb-9f05-fb97ee1d1012")
+	)
+	(wire
+		(pts
+			(xy 16.51 120.65) (xy 16.51 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f855b67-17de-4699-9bf9-636ba913e3e9")
+	)
+	(wire
+		(pts
+			(xy 265.43 86.36) (xy 265.43 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11935cab-4235-4cd9-8cf6-7d94e559e3a0")
+	)
+	(wire
+		(pts
+			(xy 186.69 97.79) (xy 193.04 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11bc588e-90df-4810-9079-df2257032134")
+	)
+	(wire
+		(pts
+			(xy 222.25 153.67) (xy 222.25 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "124e1f91-c7bc-47e8-ae70-4d73144d9294")
+	)
+	(wire
+		(pts
+			(xy 251.46 49.53) (xy 257.81 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13644481-a53e-4f56-a419-388163363306")
+	)
+	(wire
+		(pts
+			(xy 15.24 97.79) (xy 20.32 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "157fc74d-e342-4df9-b62c-169b866135b8")
+	)
+	(wire
+		(pts
+			(xy 200.66 153.67) (xy 200.66 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1612863b-ba17-4f2d-8a56-935737c878b6")
+	)
+	(wire
+		(pts
+			(xy 78.74 97.79) (xy 85.09 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "170d8f3b-0067-4e4f-ab72-081c2eeca708")
+	)
+	(wire
+		(pts
+			(xy 57.15 97.79) (xy 63.5 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a5b87ab-3d14-4eee-b272-a49006321cf6")
+	)
+	(wire
+		(pts
+			(xy 229.87 143.51) (xy 236.22 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a5e050b-e2cb-44cb-b5ab-28f339a30739")
+	)
+	(wire
+		(pts
+			(xy 100.33 97.79) (xy 106.68 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a818a36-e08f-4371-ba97-3f870d78526b")
+	)
+	(wire
+		(pts
+			(xy 179.07 153.67) (xy 179.07 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c6f705c-9829-46d4-ba46-638b75320547")
+	)
+	(wire
+		(pts
+			(xy 27.94 105.41) (xy 27.94 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d64a42e-bafd-47dd-881a-5747fa97a44e")
+	)
+	(wire
+		(pts
+			(xy 16.51 76.2) (xy 16.51 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d883d77-3553-4b28-8b10-1e61f3c16cf0")
+	)
+	(wire
+		(pts
+			(xy 265.43 153.67) (xy 265.43 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ddf7ea6-6a4e-48a5-ace6-cb93e6576042")
+	)
+	(wire
+		(pts
+			(xy 17.78 46.99) (xy 20.32 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2100c035-4d87-4f88-9575-c85788913421")
+	)
+	(wire
+		(pts
+			(xy 71.12 38.1) (xy 92.71 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e8e34d-f6eb-4015-a3c4-4acc365be331")
+	)
+	(wire
+		(pts
+			(xy 35.56 143.51) (xy 41.91 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22eabcfe-c935-44c8-aa6a-4d9182256261")
+	)
+	(wire
+		(pts
+			(xy 121.92 143.51) (xy 128.27 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a97583-f837-4d2c-949f-0f157821394e")
+	)
+	(wire
+		(pts
+			(xy 71.12 105.41) (xy 71.12 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c8b4d1-64d5-4390-b289-b81bf63ff842")
+	)
+	(wire
+		(pts
+			(xy 57.15 49.53) (xy 63.5 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b1f276-7f98-4dce-aab2-01dd742561a4")
+	)
+	(wire
+		(pts
+			(xy 165.1 146.05) (xy 171.45 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b680c8-837f-42d5-a19c-2ef926c2d4fe")
+	)
+	(wire
+		(pts
+			(xy 49.53 134.62) (xy 71.12 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "287c0db6-87ed-4dea-bfd4-19b6fe9ae43f")
+	)
+	(wire
+		(pts
+			(xy 179.07 38.1) (xy 179.07 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "293525f0-788f-45c5-b57a-2a5857e56827")
+	)
+	(wire
+		(pts
+			(xy 243.84 105.41) (xy 243.84 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a1ffd1-a5ec-4414-849a-60edea5f4f42")
+	)
+	(wire
+		(pts
+			(xy 265.43 57.15) (xy 265.43 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b26f497-0653-4f17-8b7c-b970b4bf9425")
+	)
+	(wire
+		(pts
+			(xy 114.3 105.41) (xy 114.3 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf86fb8-629a-4df0-86cb-8c3d7d0b8b13")
+	)
+	(wire
+		(pts
+			(xy 251.46 146.05) (xy 257.81 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d01f9d6-1e87-4242-a611-603d442a9587")
+	)
+	(wire
+		(pts
+			(xy 229.87 146.05) (xy 236.22 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2edd6deb-0f16-4512-9e75-8126ab22c563")
+	)
+	(wire
+		(pts
+			(xy 135.89 86.36) (xy 135.89 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f3ce1c8-5a11-41b8-b390-b2ffc5a83456")
+	)
+	(wire
+		(pts
+			(xy 100.33 46.99) (xy 106.68 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31064253-10ea-48f7-a6f8-56d0812bb197")
+	)
+	(wire
+		(pts
+			(xy 222.25 38.1) (xy 243.84 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c0ff0c-faca-45b4-b5a8-a6fe3765c085")
+	)
+	(wire
+		(pts
+			(xy 273.05 97.79) (xy 278.13 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3380b613-4c3d-49e4-87b3-60c3dc7b9628")
+	)
+	(wire
+		(pts
+			(xy 135.89 134.62) (xy 157.48 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34577745-1c41-4430-9919-e53d61420e4d")
+	)
+	(wire
+		(pts
+			(xy 165.1 46.99) (xy 171.45 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "345d3e42-c8a0-4c35-b116-565bbf9f9a74")
+	)
+	(wire
+		(pts
+			(xy 179.07 57.15) (xy 179.07 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "353e0669-84fe-410c-b5bf-d706d69e173a")
+	)
+	(wire
+		(pts
+			(xy 114.3 153.67) (xy 114.3 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a88c88-2f28-4499-aa50-ed14e9d224cc")
+	)
+	(wire
+		(pts
+			(xy 49.53 38.1) (xy 49.53 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376a01a2-08d9-4627-ad81-cb5f8f2620da")
+	)
+	(wire
+		(pts
+			(xy 78.74 49.53) (xy 85.09 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a22eec-3cb8-44e7-beeb-7141b2513ec9")
+	)
+	(wire
+		(pts
+			(xy 157.48 57.15) (xy 157.48 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37bd9829-3e3c-43c3-845d-efd33a7c117a")
+	)
+	(wire
+		(pts
+			(xy 229.87 95.25) (xy 236.22 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d38941-d88f-47ef-9092-6bfe3d867049")
+	)
+	(wire
+		(pts
+			(xy 208.28 46.99) (xy 214.63 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "392ff9ce-6842-4ca8-82eb-d00c28e45eee")
+	)
+	(wire
+		(pts
+			(xy 243.84 38.1) (xy 243.84 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae5cb46-ef06-4f54-b644-4ebef02e81dd")
+	)
+	(wire
+		(pts
+			(xy 16.51 143.51) (xy 20.32 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b69c9b2-a1b7-48ff-8cc7-7f8d65da3d67")
+	)
+	(wire
+		(pts
+			(xy 278.13 97.79) (xy 278.13 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3baafe38-1da9-465f-ba3e-52d6ac16f719")
+	)
+	(wire
+		(pts
+			(xy 208.28 95.25) (xy 214.63 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca1081f-5690-4d90-8c76-699dcdafb314")
+	)
+	(wire
+		(pts
+			(xy 165.1 49.53) (xy 171.45 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7a3a9e-798e-4875-94d2-84c526f60355")
+	)
+	(wire
+		(pts
+			(xy 265.43 105.41) (xy 265.43 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "424b6cd7-4429-4ce7-84c3-cf480090220d")
+	)
+	(wire
+		(pts
+			(xy 222.25 57.15) (xy 222.25 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46684f53-a909-40e8-848e-46454b75beca")
+	)
+	(wire
+		(pts
+			(xy 200.66 86.36) (xy 200.66 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a08f957-0f72-4e2d-8e07-b7c223c413da")
+	)
+	(wire
+		(pts
+			(xy 243.84 38.1) (xy 265.43 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4abab76e-2c18-47f6-bbba-f317be62e431")
+	)
+	(wire
+		(pts
+			(xy 57.15 146.05) (xy 63.5 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b2abe6a-eb36-4ad9-ad5d-cd0cdb3c0fba")
+	)
+	(wire
+		(pts
+			(xy 243.84 86.36) (xy 265.43 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8778a1-cba0-4be2-a60e-0d7a1f85dcc9")
+	)
+	(wire
+		(pts
+			(xy 100.33 146.05) (xy 106.68 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4f3bc8-2330-4c04-bcc4-b88d2fd91ada")
+	)
+	(wire
+		(pts
+			(xy 135.89 105.41) (xy 135.89 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c6fe7ca-d567-4a57-9736-fc8657cb01e5")
+	)
+	(wire
+		(pts
+			(xy 121.92 97.79) (xy 128.27 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f78c33a-7feb-4d18-b83b-f64b4828c1ab")
+	)
+	(wire
+		(pts
+			(xy 279.4 46.99) (xy 279.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ab26b5-596f-493c-92ab-e6300f56b552")
+	)
+	(wire
+		(pts
+			(xy 27.94 29.21) (xy 27.94 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52217267-e5f7-45b9-8c40-0ec1a5a1974c")
+	)
+	(wire
+		(pts
+			(xy 16.51 95.25) (xy 20.32 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52467449-93c2-4751-bed8-78c63c03934d")
+	)
+	(wire
+		(pts
+			(xy 49.53 86.36) (xy 71.12 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5379c223-68a4-4b7a-bc0b-266fab06ffd6")
+	)
+	(wire
+		(pts
+			(xy 135.89 57.15) (xy 135.89 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d1fc59-58d1-4017-b449-ba41c132d7cd")
+	)
+	(wire
+		(pts
+			(xy 251.46 46.99) (xy 257.81 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545cba4f-eb97-4f13-90bc-dd8aaa073cac")
+	)
+	(wire
+		(pts
+			(xy 27.94 134.62) (xy 27.94 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "549ecb2e-64e0-428c-b019-6e9e922d1e2e")
+	)
+	(wire
+		(pts
+			(xy 135.89 38.1) (xy 135.89 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5568e740-2db8-431d-9152-52937e61510a")
+	)
+	(wire
+		(pts
+			(xy 92.71 134.62) (xy 114.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57d80216-fb98-4b0d-9681-b49c9ea3fc26")
+	)
+	(wire
+		(pts
+			(xy 179.07 134.62) (xy 200.66 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a37fb3-4b1f-48b3-9d0c-f51e62e1e7ed")
+	)
+	(wire
+		(pts
+			(xy 15.24 146.05) (xy 20.32 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5adae4ac-fe3c-49c0-b087-abd4b0d81eea")
+	)
+	(wire
+		(pts
+			(xy 35.56 46.99) (xy 41.91 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dad8690-a679-4f36-87f5-e6a9acc91b4a")
+	)
+	(wire
+		(pts
+			(xy 25.4 29.21) (xy 27.94 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e069258-71b8-442b-a900-211f01e714bf")
+	)
+	(wire
+		(pts
+			(xy 143.51 49.53) (xy 149.86 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60094b61-6bae-4608-8a5a-7f075632a4c6")
+	)
+	(wire
+		(pts
+			(xy 71.12 38.1) (xy 71.12 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "639c31eb-79e9-4550-82f7-c116bbe64a34")
+	)
+	(wire
+		(pts
+			(xy 27.94 134.62) (xy 49.53 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a35934-1ae1-43bb-bb7b-5697b4d65e02")
+	)
+	(wire
+		(pts
+			(xy 78.74 46.99) (xy 85.09 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67183af6-162f-4b87-affe-5a9711216b42")
+	)
+	(wire
+		(pts
+			(xy 35.56 49.53) (xy 41.91 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6829ecfe-b771-4af0-9b62-d8d7e5ad8811")
+	)
+	(wire
+		(pts
+			(xy 278.13 119.38) (xy 15.24 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6caee7ce-e458-4b67-b204-763cb98c1af0")
+	)
+	(wire
+		(pts
+			(xy 143.51 95.25) (xy 149.86 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc7e3e1-b09e-4835-afea-4243914cbd6b")
+	)
+	(wire
+		(pts
+			(xy 157.48 134.62) (xy 157.48 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d357c32-c13c-496d-b61a-387ead1edc5c")
+	)
+	(wire
+		(pts
+			(xy 35.56 95.25) (xy 41.91 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed3a0cb-c851-4036-a744-43b19d5aabae")
+	)
+	(wire
+		(pts
+			(xy 208.28 49.53) (xy 214.63 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f5b83fe-190c-4c39-a75d-60dd0c2694f1")
+	)
+	(wire
+		(pts
+			(xy 186.69 49.53) (xy 193.04 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7067d58e-30ad-4417-a514-ac14a00f8811")
+	)
+	(wire
+		(pts
+			(xy 49.53 153.67) (xy 49.53 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716b09cf-94c6-46fe-a112-5c8367551da6")
+	)
+	(wire
+		(pts
+			(xy 27.94 153.67) (xy 27.94 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7196aa4c-3cfd-4a79-82f7-74d3023e119c")
+	)
+	(wire
+		(pts
+			(xy 165.1 97.79) (xy 171.45 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728cc2e8-8bd3-4908-a9ab-808707b188fc")
+	)
+	(wire
+		(pts
+			(xy 121.92 46.99) (xy 128.27 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d4a558-81eb-45e3-a05f-719778dfd6b3")
+	)
+	(wire
+		(pts
+			(xy 165.1 143.51) (xy 171.45 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a1b27b-7f1d-4802-8111-6528e0f1711e")
+	)
+	(wire
+		(pts
+			(xy 135.89 134.62) (xy 135.89 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c415b1-b0a4-48b7-8418-0672f8e7ad83")
+	)
+	(wire
+		(pts
+			(xy 71.12 134.62) (xy 71.12 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75299082-dcca-43f5-a5fc-4ad6e6c2c199")
+	)
+	(wire
+		(pts
+			(xy 251.46 95.25) (xy 257.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b0067b-fc15-4114-a865-0269406553d4")
+	)
+	(wire
+		(pts
+			(xy 179.07 38.1) (xy 200.66 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76f3f4de-7d19-4eb5-91f5-a015120ac6a7")
+	)
+	(wire
+		(pts
+			(xy 157.48 38.1) (xy 157.48 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7703098a-39c8-4ca6-b68d-19dcbecb0459")
+	)
+	(wire
+		(pts
+			(xy 208.28 97.79) (xy 214.63 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79515bfb-3023-47b7-8d5f-372c89eb65cb")
+	)
+	(wire
+		(pts
+			(xy 27.94 38.1) (xy 27.94 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b0220a2-bf35-4ccc-9002-b6e7ccc18932")
+	)
+	(wire
+		(pts
+			(xy 121.92 146.05) (xy 128.27 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bd32e25-2891-43fe-b4bf-87876426b8f4")
+	)
+	(wire
+		(pts
+			(xy 229.87 46.99) (xy 236.22 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ccb8d04-8ac6-4584-a1df-a127a2d630a2")
+	)
+	(wire
+		(pts
+			(xy 49.53 57.15) (xy 49.53 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8059d2fd-4516-4772-b323-2a2a5862ef0c")
+	)
+	(wire
+		(pts
+			(xy 17.78 49.53) (xy 20.32 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80820888-796d-4adf-872b-423bfcf108d3")
+	)
+	(wire
+		(pts
+			(xy 100.33 95.25) (xy 106.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80fd054e-448a-4814-9905-6907656dc0ea")
+	)
+	(wire
+		(pts
+			(xy 114.3 38.1) (xy 114.3 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81a06b47-a292-455a-ad38-ecd43055bfef")
+	)
+	(wire
+		(pts
+			(xy 27.94 38.1) (xy 49.53 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8375b319-95d3-422c-8b4c-c1a86ce9e39a")
+	)
+	(wire
+		(pts
+			(xy 121.92 95.25) (xy 128.27 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841a1774-9b16-4b6a-a539-ebbce4d62360")
+	)
+	(wire
+		(pts
+			(xy 35.56 146.05) (xy 41.91 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "846c75fe-6c28-4b90-b5a6-f047f630850a")
+	)
+	(wire
+		(pts
+			(xy 278.13 49.53) (xy 278.13 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8522ec00-9815-46d5-accb-8f293c404e08")
+	)
+	(wire
+		(pts
+			(xy 157.48 86.36) (xy 157.48 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a4ef5b3-e86c-48f7-93a9-c18e09a2cf17")
+	)
+	(wire
+		(pts
+			(xy 243.84 134.62) (xy 243.84 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be32abf-4d9b-48f2-996e-6cb9cbfa6233")
+	)
+	(wire
+		(pts
+			(xy 49.53 38.1) (xy 71.12 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be853d0-08cf-41dc-a1a0-ab317d210882")
+	)
+	(wire
+		(pts
+			(xy 186.69 46.99) (xy 193.04 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c89a4f2-3fc1-49b9-bc87-3223bb7e6064")
+	)
+	(wire
+		(pts
+			(xy 114.3 57.15) (xy 114.3 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d3247a4-d272-4607-a8f3-5ee25e37f495")
+	)
+	(wire
+		(pts
+			(xy 222.25 134.62) (xy 222.25 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df6a44b-02f9-443e-bf19-a96c983d6647")
+	)
+	(wire
+		(pts
+			(xy 222.25 86.36) (xy 222.25 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e3633e1-4acc-40f5-97df-4ab5a68bee8d")
+	)
+	(wire
+		(pts
+			(xy 200.66 86.36) (xy 222.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f044295-b545-4de9-9cc4-33cdf97ceb65")
+	)
+	(wire
+		(pts
+			(xy 222.25 105.41) (xy 222.25 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f43e826-47ce-49cf-b450-abaeaf66ca50")
+	)
+	(wire
+		(pts
+			(xy 92.71 105.41) (xy 92.71 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9091968c-484b-49d6-976f-3f1e3a9d55ce")
+	)
+	(wire
+		(pts
+			(xy 49.53 134.62) (xy 49.53 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "923c2a53-89a5-472f-97bc-66599d97eee5")
+	)
+	(wire
+		(pts
+			(xy 114.3 86.36) (xy 114.3 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95dc5df6-8f7e-431f-b65a-182a041dd42c")
+	)
+	(wire
+		(pts
+			(xy 222.25 86.36) (xy 243.84 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e054a8-5aaf-43f0-b1fc-9280b2c28f76")
+	)
+	(wire
+		(pts
+			(xy 71.12 57.15) (xy 71.12 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9710245c-e24b-4804-a238-a564b6a22644")
+	)
+	(wire
+		(pts
+			(xy 229.87 97.79) (xy 236.22 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99df1cc6-5595-4222-859f-e19fcc185f4a")
+	)
+	(wire
+		(pts
+			(xy 114.3 38.1) (xy 135.89 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a23dde7-666d-48b1-803c-a82dacd777be")
+	)
+	(wire
+		(pts
+			(xy 71.12 86.36) (xy 71.12 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd3a691-3389-4732-9b5c-613a2fa12038")
+	)
+	(wire
+		(pts
+			(xy 157.48 153.67) (xy 157.48 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e082a46-aa84-4f4d-bcdc-c290cf3b8a94")
+	)
+	(wire
+		(pts
+			(xy 200.66 57.15) (xy 200.66 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e38301f-3a25-41d3-90d1-718f98043d06")
+	)
+	(wire
+		(pts
+			(xy 78.74 95.25) (xy 85.09 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f30f3bb-c9ff-4861-96a2-aea7a5657599")
+	)
+	(wire
+		(pts
+			(xy 208.28 146.05) (xy 214.63 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6e97c0-1df3-477c-bcba-bbfcd9c29d6d")
+	)
+	(wire
+		(pts
+			(xy 100.33 49.53) (xy 106.68 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a15311ce-7eb1-49f8-9f9b-c04e6b540507")
+	)
+	(wire
+		(pts
+			(xy 179.07 105.41) (xy 179.07 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2333359-c07c-40cd-9302-8a96ad22ee45")
+	)
+	(wire
+		(pts
+			(xy 179.07 134.62) (xy 179.07 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a388e37c-e239-46ab-89d2-a90abb3d3b12")
+	)
+	(wire
+		(pts
+			(xy 179.07 86.36) (xy 179.07 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ecf3e8-5df5-4240-b3e9-8c08808eca19")
+	)
+	(wire
+		(pts
+			(xy 265.43 134.62) (xy 265.43 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e8abcb-40e8-453e-a741-76d7be8d545a")
+	)
+	(wire
+		(pts
+			(xy 92.71 86.36) (xy 92.71 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a80920cb-797d-4e5b-8517-7b4dbc9d3ba6")
+	)
+	(wire
+		(pts
+			(xy 273.05 49.53) (xy 278.13 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82e23e4-72c8-41f9-b059-d49a5223c234")
+	)
+	(wire
+		(pts
+			(xy 15.24 74.93) (xy 15.24 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a872a856-7ffa-485b-8d17-3a67626dfb9b")
+	)
+	(wire
+		(pts
+			(xy 165.1 95.25) (xy 171.45 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ece7b7-5475-4f63-bbac-1a93e8ab693f")
+	)
+	(wire
+		(pts
+			(xy 273.05 46.99) (xy 279.4 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac7e42cc-a602-4d90-9a30-d6b6fa090a19")
+	)
+	(wire
+		(pts
+			(xy 186.69 146.05) (xy 193.04 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac88e471-ab49-419f-b277-f637ec045d32")
+	)
+	(wire
+		(pts
+			(xy 135.89 38.1) (xy 157.48 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae62b4bf-4f18-4db7-a3b9-39e6ea4c8f3a")
+	)
+	(wire
+		(pts
+			(xy 92.71 38.1) (xy 114.3 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b36ceeea-4cc4-42ef-9608-834e316aacba")
+	)
+	(wire
+		(pts
+			(xy 114.3 134.62) (xy 135.89 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40a7826-8544-47ce-83e6-c40a7a7794d6")
+	)
+	(wire
+		(pts
+			(xy 157.48 86.36) (xy 179.07 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5aad17c-acab-4e6c-bb41-5373358eae95")
+	)
+	(wire
+		(pts
+			(xy 278.13 74.93) (xy 15.24 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7289c78-06c9-4e82-ac83-1d59fb04910a")
+	)
+	(wire
+		(pts
+			(xy 222.25 134.62) (xy 243.84 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7fc96e9-3f5e-45c8-9a32-35ad72e69b8d")
+	)
+	(wire
+		(pts
+			(xy 27.94 86.36) (xy 27.94 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2a2972-b9ad-4f85-8392-7829bcb05d29")
+	)
+	(wire
+		(pts
+			(xy 251.46 97.79) (xy 257.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5c9721-5440-41ab-ba80-b249e45bffd3")
+	)
+	(wire
+		(pts
+			(xy 200.66 38.1) (xy 222.25 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa6c541-2184-4d45-a37f-1a63f7a69f11")
+	)
+	(wire
+		(pts
+			(xy 243.84 57.15) (xy 243.84 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be1f0bb0-c842-45bf-8bc0-84569a7a259f")
+	)
+	(wire
+		(pts
+			(xy 135.89 153.67) (xy 135.89 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01cbd22-bf18-4e71-8b3e-12c8450bc191")
+	)
+	(wire
+		(pts
+			(xy 243.84 134.62) (xy 265.43 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c072e0ae-aa11-44d2-91d6-76955de53db0")
+	)
+	(wire
+		(pts
+			(xy 273.05 95.25) (xy 279.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e910e0-469b-494d-be57-76c58a1d5f81")
+	)
+	(wire
+		(pts
+			(xy 222.25 38.1) (xy 222.25 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2198dee-746f-4184-8692-751643b684e0")
+	)
+	(wire
+		(pts
+			(xy 143.51 146.05) (xy 149.86 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c5e728-9ec2-4fd5-b1a1-8461f870d562")
+	)
+	(wire
+		(pts
+			(xy 35.56 97.79) (xy 41.91 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4dbc6f4-9501-421c-bcee-a8002f00f166")
+	)
+	(wire
+		(pts
+			(xy 229.87 49.53) (xy 236.22 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5366675-c66b-4b27-a687-73db702c3e3d")
+	)
+	(wire
+		(pts
+			(xy 71.12 153.67) (xy 71.12 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6f64bd1-a91e-44b1-80e7-598151f5df5e")
+	)
+	(wire
+		(pts
+			(xy 200.66 38.1) (xy 200.66 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c01245-f822-4eae-ae50-feb22e22d425")
+	)
+	(wire
+		(pts
+			(xy 71.12 134.62) (xy 92.71 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a0d602-f93c-4b6f-8109-1946b3ad9093")
+	)
+	(wire
+		(pts
+			(xy 208.28 143.51) (xy 214.63 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca9deb5d-622e-4c73-a185-c61340442b65")
+	)
+	(wire
+		(pts
+			(xy 100.33 143.51) (xy 106.68 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d21a1591-e489-4cc8-8b37-f1509df96187")
+	)
+	(wire
+		(pts
+			(xy 243.84 86.36) (xy 243.84 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2cdc547-115e-4c49-aad1-3afd3f74d09f")
+	)
+	(wire
+		(pts
+			(xy 49.53 86.36) (xy 49.53 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c828e2-4727-4420-a35b-6f8bd7b008d6")
+	)
+	(wire
+		(pts
+			(xy 27.94 57.15) (xy 27.94 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d531b276-262a-4fff-b09f-764e8ac7c0a9")
+	)
+	(wire
+		(pts
+			(xy 15.24 119.38) (xy 15.24 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71be219-c9af-4833-b1e9-d05d74557615")
+	)
+	(wire
+		(pts
+			(xy 114.3 86.36) (xy 135.89 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ec2d75-8a63-41d8-9543-c25eac648920")
+	)
+	(wire
+		(pts
+			(xy 114.3 134.62) (xy 114.3 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ff80c4-a1d9-438e-99c8-7fbe6db9034e")
+	)
+	(wire
+		(pts
+			(xy 27.94 86.36) (xy 49.53 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9be11ae-e4fe-4b98-ac9a-bc27cd83a072")
+	)
+	(wire
+		(pts
+			(xy 57.15 46.99) (xy 63.5 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd74d07-a92a-4f75-8d93-43a06f4134cd")
+	)
+	(wire
+		(pts
+			(xy 265.43 38.1) (xy 265.43 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd13ab07-599f-49c9-a08f-5addcd756490")
+	)
+	(wire
+		(pts
+			(xy 78.74 146.05) (xy 85.09 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd330547-b512-4803-ae56-19846d51fbb6")
+	)
+	(wire
+		(pts
+			(xy 279.4 95.25) (xy 279.4 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd744c17-9fd1-4d90-92ba-d238c84bfc7b")
+	)
+	(wire
+		(pts
+			(xy 92.71 134.62) (xy 92.71 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd26bc4-11fd-43d7-9859-63c2272014aa")
+	)
+	(wire
+		(pts
+			(xy 71.12 86.36) (xy 92.71 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e44dd628-a168-426e-960e-3dc31850dbbf")
+	)
+	(wire
+		(pts
+			(xy 143.51 46.99) (xy 149.86 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b09195-0e23-46de-b1c1-dc0d5c4bd30c")
+	)
+	(wire
+		(pts
+			(xy 200.66 134.62) (xy 200.66 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e50a8435-8f76-480d-b9c6-f74ee6d8bafd")
+	)
+	(wire
+		(pts
+			(xy 92.71 57.15) (xy 92.71 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5488455-1e80-49f3-81f8-5b3be4b3ebd6")
+	)
+	(wire
+		(pts
+			(xy 92.71 38.1) (xy 92.71 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ca6c73-ba77-4707-bc2c-caa9c494e96c")
+	)
+	(wire
+		(pts
+			(xy 157.48 105.41) (xy 157.48 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a596a7-25b7-48f5-9f13-84c8af7c6c1d")
+	)
+	(wire
+		(pts
+			(xy 186.69 95.25) (xy 193.04 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7fd8332-6c39-44f2-b3f4-cbc4b76f9443")
+	)
+	(wire
+		(pts
+			(xy 92.71 153.67) (xy 92.71 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e946fada-1dd6-4e67-9f8c-8829bf98f5f6")
+	)
+	(wire
+		(pts
+			(xy 135.89 86.36) (xy 157.48 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7b4a3c-90f4-452d-9893-c13dc88038ef")
+	)
+	(wire
+		(pts
+			(xy 186.69 143.51) (xy 193.04 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf86ebb-c213-4368-985c-a0fa63a54fc6")
+	)
+	(wire
+		(pts
+			(xy 251.46 143.51) (xy 257.81 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eccd248f-12f7-452a-9d98-9f00b89494b8")
+	)
+	(wire
+		(pts
+			(xy 157.48 134.62) (xy 179.07 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef252b27-4277-41c6-9997-b68a02cdb319")
+	)
+	(wire
+		(pts
+			(xy 179.07 86.36) (xy 200.66 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09ea266-2b03-473d-8563-2c87949a6aba")
+	)
+	(wire
+		(pts
+			(xy 121.92 49.53) (xy 128.27 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f49b05ac-9992-419d-8d2e-f89ae54748aa")
+	)
+	(wire
+		(pts
+			(xy 92.71 86.36) (xy 114.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f81e3de9-12f9-416c-9682-d4f2b80bd0ed")
+	)
+	(wire
+		(pts
+			(xy 57.15 143.51) (xy 63.5 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8acba7a-b559-41de-a208-5cdd6f1a5dec")
+	)
+	(wire
+		(pts
+			(xy 157.48 38.1) (xy 179.07 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91cb7ae-2b42-4dc6-8fd8-d42172e6a3f9")
+	)
+	(wire
+		(pts
+			(xy 49.53 105.41) (xy 49.53 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9fa3871-ff0c-4192-919b-a682d22793de")
+	)
+	(wire
+		(pts
+			(xy 279.4 76.2) (xy 16.51 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8c1bd9-3094-45ef-99a0-35810a6fb43a")
+	)
+	(wire
+		(pts
+			(xy 78.74 143.51) (xy 85.09 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdec3b5e-a265-4bfd-8846-38d5c46ae252")
+	)
+	(wire
+		(pts
+			(xy 243.84 153.67) (xy 243.84 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fff018a7-6cdc-4261-8be3-5d794d638aeb")
+	)
+	(label "+5V_LED"
+		(at 58.42 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03ed587e-2c3a-47f1-ab07-117fbec096d7")
+	)
+	(label "+5V_LED"
+		(at 59.69 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3edfa7f9-c5b8-4d71-8a41-ef6cd0b3410f")
+	)
+	(label "+5V_LED"
+		(at 58.42 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "887c7cb1-d1cc-47ec-97aa-4b44e9feedc2")
+	)
+	(hierarchical_label "CKI"
+		(shape input)
+		(at 17.78 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "82994ce7-b9be-42eb-8c9f-d61125e80939")
+	)
+	(hierarchical_label "+5V_LED"
+		(shape input)
+		(at 25.4 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84b8dfcb-3eb2-4959-9299-08e0f31382cf")
+	)
+	(hierarchical_label "SDI"
+		(shape input)
+		(at 17.78 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b594cd17-363c-4714-a1dd-ea78ef9f535d")
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 114.3 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a2d8800-55a5-44c1-b0cb-c4b2a93688b3")
+		(property "Reference" "D30"
+			(at 116.4433 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 116.4433 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 115.57 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 116.84 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 114.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 114.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 114.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 114.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "84405746-2072-4342-805d-bf2604e64223")
+		)
+		(pin "1"
+			(uuid "c3e0eecd-85e7-4c3e-a9f8-53bdc5c30807")
+		)
+		(pin "6"
+			(uuid "b7af803b-4980-4abd-b0a4-2392f1dfe73e")
+		)
+		(pin "2"
+			(uuid "885553e1-398d-484d-b255-683465b979ae")
+		)
+		(pin "4"
+			(uuid "5798df0a-0146-4ec4-bc8f-67f92a26685e")
+		)
+		(pin "5"
+			(uuid "2cf77368-a0de-4b08-91a8-4d167d77c6bc")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 179.07 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10597c92-ef0b-4c6b-8195-4c58153a9033")
+		(property "Reference" "D21"
+			(at 181.2133 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 181.2133 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 181.61 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 179.07 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 179.07 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 179.07 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 179.07 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a19a99a6-1531-4f81-bdc0-dc4b4be52256")
+		)
+		(pin "1"
+			(uuid "7bd41698-656f-44b5-8832-8feeb0d30acd")
+		)
+		(pin "6"
+			(uuid "63910aef-555c-4104-b930-57e874c60e63")
+		)
+		(pin "2"
+			(uuid "c3c5435c-dd69-43cf-b28e-eb7476f61fb2")
+		)
+		(pin "4"
+			(uuid "098401d6-6130-40b2-ab74-3e9dc8c53c25")
+		)
+		(pin "5"
+			(uuid "34da4d27-1d6e-4448-a127-950faf30a396")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14cd73d4-b03b-4ad3-a00a-da9583edec75")
+		(property "Reference" "#PWR0146"
+			(at 92.71 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97b0fdf8-2f2c-412d-aebc-a55e13c04d1d")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a10db2d-be26-4cbb-a57c-e1f23dc2c990")
+		(property "Reference" "#PWR0186"
+			(at 265.43 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f4299da-6e03-4f17-aea0-524e96437e37")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0186")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 179.07 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bb3f777-a2ed-4d2a-aaad-761696dfa7d3")
+		(property "Reference" "D33"
+			(at 181.2133 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 181.2133 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 180.34 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 181.61 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 179.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 179.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 179.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 179.07 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c97a989f-c23e-4aeb-bb68-3a273814292c")
+		)
+		(pin "1"
+			(uuid "cd74c1b2-6c69-4c4e-b04a-bc494162dab1")
+		)
+		(pin "6"
+			(uuid "098872fe-4559-4903-8c7d-a6afdc43d942")
+		)
+		(pin "2"
+			(uuid "5ff5365d-9d83-4fa1-aad2-902e86025477")
+		)
+		(pin "4"
+			(uuid "7491f3c8-d2d9-48e0-9eee-26faad58018a")
+		)
+		(pin "5"
+			(uuid "8b682f85-677f-4947-ab12-282847d811af")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 179.07 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c455fd3-f9f6-45f6-afa9-f77c5cc6a334")
+		(property "Reference" "D9"
+			(at 181.2133 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 181.2133 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 181.61 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 179.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 179.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 179.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 179.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bfa56434-247c-42d0-8831-73db2c0f9854")
+		)
+		(pin "1"
+			(uuid "86936c69-682d-48c8-b6f0-ce342b0ad410")
+		)
+		(pin "6"
+			(uuid "5ad85856-e6f6-4e0a-8256-130b85d3179b")
+		)
+		(pin "2"
+			(uuid "93bd2d90-1e7e-4cb2-8192-0abadff7dbc5")
+		)
+		(pin "4"
+			(uuid "b469442a-a70b-4919-87d7-16ae9a507926")
+		)
+		(pin "5"
+			(uuid "27e602f5-54c8-4fd5-9179-3fc9a5d7158d")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c70d405-afce-4d7f-ab3e-6f9f301a8f30")
+		(property "Reference" "#PWR0198"
+			(at 135.89 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d2f6d0a-564a-4a1b-8227-83fe6901e356")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0198")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f2f1be8-b028-44ab-8316-724b6c092908")
+		(property "Reference" "#PWR0168"
+			(at 71.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "671a2271-ba5a-4028-90f9-56dfc3db7ee9")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0168")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2212b0cf-1b91-4630-b695-61148b96022e")
+		(property "Reference" "#PWR0208"
+			(at 243.84 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2c47ded-674f-46e1-8ed0-3451d5e25b1f")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2719db96-e8a1-405c-9c71-d47b81d707cf")
+		(property "Reference" "#PWR0162"
+			(at 265.43 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "477f4d0a-2933-4126-9e98-603372a70cf2")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "271b739d-0100-4ab7-82d9-1d4a58086e28")
+		(property "Reference" "#PWR0142"
+			(at 49.53 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ac081f9-bdbe-4ea9-9544-e49a71aff602")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 157.48 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "281b33d0-08e5-4644-a916-2288b7488674")
+		(property "Reference" "D8"
+			(at 159.6233 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 159.6233 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 158.75 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 160.02 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 157.48 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 157.48 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 157.48 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 157.48 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "476df556-4aa7-4608-a696-dcbb69915912")
+		)
+		(pin "1"
+			(uuid "5176cda2-51d5-46f9-ad5e-2d437849bc2d")
+		)
+		(pin "6"
+			(uuid "82d39824-f102-496c-ba81-f9c0aab92bc8")
+		)
+		(pin "2"
+			(uuid "335cc7ca-6b8e-46d2-a9d2-0207e67ceecb")
+		)
+		(pin "4"
+			(uuid "878354ac-06f2-478d-b801-7d66a22c043a")
+		)
+		(pin "5"
+			(uuid "b14079ff-31b2-4472-885c-d68cc40d4cd5")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29422555-fcbe-4506-8d8d-22c87686c89c")
+		(property "Reference" "#PWR0174"
+			(at 135.89 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57df6348-aed3-43d5-a57b-b5abf7300de2")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 243.84 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e22832f-84b6-4c2e-83cd-610d7e16c1df")
+		(property "Reference" "D24"
+			(at 245.9833 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 245.9833 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 245.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 246.38 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 243.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 243.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 243.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 243.84 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "31a76632-e78c-470e-a8fb-7eaf40052ee7")
+		)
+		(pin "1"
+			(uuid "b66d6202-3fcb-4401-aaa9-814692a6cec9")
+		)
+		(pin "6"
+			(uuid "4a5cc6e1-e614-4a4b-bfb2-223a653cab22")
+		)
+		(pin "2"
+			(uuid "c3a7ad5f-526a-4f38-a2b1-428ba42c24fe")
+		)
+		(pin "4"
+			(uuid "d538179f-42c5-48fc-9b22-03e3ffac1998")
+		)
+		(pin "5"
+			(uuid "a772bdb3-f791-4fc6-a48f-ade213298aec")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 265.43 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e39337f-87c4-47af-82bd-b06ec67104ca")
+		(property "Reference" "D37"
+			(at 267.5733 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 267.5733 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 266.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 267.97 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 265.43 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 265.43 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 265.43 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 265.43 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "195daef1-29b4-4ce8-b39d-32b8f44945ce")
+		)
+		(pin "1"
+			(uuid "7b0663cd-8693-407a-bdb9-823c28dc2e14")
+		)
+		(pin "6"
+			(uuid "962be10a-9ad1-4a94-aa7c-215c8f4e34e6")
+		)
+		(pin "2"
+			(uuid "92684431-822d-48fe-9ee4-e08f5f9a9383")
+		)
+		(pin "4"
+			(uuid "13121048-28d5-4d52-9a90-0e348007b1bf")
+		)
+		(pin "5"
+			(uuid "6deb752d-2672-4968-96b1-94a95f104352")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 200.66 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3117113b-86f0-41df-bfcf-84dbed80cd5a")
+		(property "Reference" "D34"
+			(at 202.8033 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 202.8033 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 201.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 203.2 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1fd30e6c-2722-43a2-8ed8-40fea17d17a4")
+		)
+		(pin "1"
+			(uuid "c9cd3d3a-5518-44eb-82c6-1f485b43c970")
+		)
+		(pin "6"
+			(uuid "79aae330-03c6-4946-bdb4-0a5a8d9eb65b")
+		)
+		(pin "2"
+			(uuid "289e1278-8e8e-4627-b17b-6110783b21a4")
+		)
+		(pin "4"
+			(uuid "8940f542-a6f3-402c-bd4b-4f919f52c161")
+		)
+		(pin "5"
+			(uuid "fbdcc0e6-cc0a-4647-9fef-bc0d8c831d41")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33bfb84a-8e27-4b82-a7f5-ba10852fb306")
+		(property "Reference" "#PWR0166"
+			(at 49.53 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51eaef9a-c49f-4e9a-91a6-81dc0d4ee67c")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 135.89 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "448f6d05-8c0e-4d4e-9833-45c6bc188a86")
+		(property "Reference" "D19"
+			(at 138.0333 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 138.0333 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 137.16 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 138.43 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d795a8d0-2d66-4e33-b92b-4f1a7506bbed")
+		)
+		(pin "1"
+			(uuid "7a7d4b89-dd79-4c75-862b-afb10407c6ec")
+		)
+		(pin "6"
+			(uuid "842d8dc2-377a-4508-ad83-501e35f8f215")
+		)
+		(pin "2"
+			(uuid "a6b572d1-a57f-4306-81b0-7682a68f6e0b")
+		)
+		(pin "4"
+			(uuid "e25bbe7b-4d2c-43f1-be0a-74e314517755")
+		)
+		(pin "5"
+			(uuid "9e94dfe7-6913-455f-a458-463952047d70")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "468dfd3b-6c66-440c-8e61-e1d8d222a6b8")
+		(property "Reference" "#PWR0150"
+			(at 135.89 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f48d666-de04-44c7-a5bb-fb32eafe19bf")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 222.25 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4805a4fd-3014-4fce-a281-6cfed8d6a756")
+		(property "Reference" "D35"
+			(at 224.3933 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 224.3933 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 223.52 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 224.79 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 222.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 222.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 222.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 222.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eeca293d-5e15-4822-b58f-e53dc4504bc8")
+		)
+		(pin "1"
+			(uuid "a6704fef-3523-4401-a9e8-66f4f441e0dc")
+		)
+		(pin "6"
+			(uuid "5771cd80-1323-48bb-a1c0-af9cfbffe847")
+		)
+		(pin "2"
+			(uuid "fba98a3e-a6f7-4f32-b7b3-5abcf9d0320d")
+		)
+		(pin "4"
+			(uuid "fce90c6f-d7da-4883-8679-cd2961a23cd7")
+		)
+		(pin "5"
+			(uuid "c515379a-5b4b-4e2d-a967-0e6e6c849ad4")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e890cdd-6b6e-4a7e-8263-68ab3e467abe")
+		(property "Reference" "#PWR0160"
+			(at 243.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4df40883-7745-4baa-9af7-5545314334de")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f36246a-bc07-4a9e-8d27-20582423a094")
+		(property "Reference" "#PWR0188"
+			(at 27.94 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab2077be-bdc8-414f-81ca-bb8140a49871")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "503b61fa-1611-4b33-b8e2-cf0b24bb2903")
+		(property "Reference" "#PWR0200"
+			(at 157.48 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "103ae52d-9949-4631-988f-084884c44c31")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0200")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53c24462-2e8d-4d57-9500-5d3e18b98126")
+		(property "Reference" "#PWR0196"
+			(at 114.3 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a00cc187-dc53-4f1d-bc02-ff915287c86a")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0196")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "589eecae-4ed2-4c67-b98a-ad10aedcd5e9")
+		(property "Reference" "#PWR0202"
+			(at 179.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0bbf626-c71b-4a93-96a8-999de18f1600")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 71.12 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59c22e71-9794-49b9-a59e-b47c541888bf")
+		(property "Reference" "D16"
+			(at 73.2633 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 73.2633 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 72.39 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 73.66 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "dbceb6bc-231e-482d-806a-8fa577a65c35")
+		)
+		(pin "1"
+			(uuid "b59e4545-1cab-41bb-9d9c-66a3e3555aec")
+		)
+		(pin "6"
+			(uuid "149bf409-6ec3-4e96-8651-ea0c0bd9cb45")
+		)
+		(pin "2"
+			(uuid "5b33785b-5d25-4b4b-a84b-9168222b9f98")
+		)
+		(pin "4"
+			(uuid "17e93936-6a24-48db-9f63-104bc17fd613")
+		)
+		(pin "5"
+			(uuid "8f87ee5f-c3cf-4533-b333-60eda73495d0")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 200.66 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b1c6aec-14ab-4462-8f4b-a6e7fbb16849")
+		(property "Reference" "D10"
+			(at 202.8033 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 202.8033 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 201.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 203.2 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 200.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1a5f1030-cb43-4c1a-9fac-00c7e767a685")
+		)
+		(pin "1"
+			(uuid "c9b78115-bc1b-473b-be44-e255e536dc2a")
+		)
+		(pin "6"
+			(uuid "7a90b977-4579-44e2-8d1b-34293c0735db")
+		)
+		(pin "2"
+			(uuid "ef12f682-b305-4600-9532-75608b140d6e")
+		)
+		(pin "4"
+			(uuid "a235d78c-4127-4d00-a66f-357c8f5f987f")
+		)
+		(pin "5"
+			(uuid "c9d5d86a-f369-4013-aaaf-8f4ad190a712")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d430b4d-c42f-4442-8721-9275041c6590")
+		(property "Reference" "#PWR0210"
+			(at 265.43 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20e18bc2-be5c-4cd8-b79a-66e7ac48070b")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63341dab-4861-44af-9cd5-5453f10d5f4c")
+		(property "Reference" "#PWR0184"
+			(at 243.84 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b185f68-4846-4d35-9ced-0bf42d288f99")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0184")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 92.71 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66aebef2-9245-44a7-8b14-a8d0b4bb4bf3")
+		(property "Reference" "D5"
+			(at 94.8533 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 94.8533 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 93.98 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 95.25 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5a50bb91-40cd-4c93-9f97-e34acf994ec9")
+		)
+		(pin "1"
+			(uuid "1a4dfe54-2038-465f-9862-4954b0b40e89")
+		)
+		(pin "6"
+			(uuid "5eacf734-43f0-433e-838f-93e8fdf50562")
+		)
+		(pin "2"
+			(uuid "3b5f098c-b786-48bc-951e-9e36589b45d8")
+		)
+		(pin "4"
+			(uuid "3bc109a5-9449-4731-bd51-370235ec0d89")
+		)
+		(pin "5"
+			(uuid "43e3e31e-e4be-4723-b711-1bece9a64d3e")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69f5339d-6eeb-4dd4-9050-0f940d613587")
+		(property "Reference" "#PWR0178"
+			(at 179.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54cf4c46-a51e-44b0-83c8-958adb8e0c0c")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0178")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cc9b173-92f4-4759-8502-b53abac4348f")
+		(property "Reference" "#PWR0172"
+			(at 114.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f06efab-5297-40f2-bbaa-e8d834975330")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7789ddd6-e91c-49eb-9925-49cbefcfc635")
+		(property "Reference" "#PWR0152"
+			(at 157.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bf226ba-1a83-486c-821a-15ec19428c37")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 200.66 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a08d917-0dbe-4696-b183-c8380524a5ee")
+		(property "Reference" "D22"
+			(at 202.8033 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 202.8033 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 201.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 203.2 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 200.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 200.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 200.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 200.66 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "26050dc4-48b8-43a6-b514-fafb57cc2ba3")
+		)
+		(pin "1"
+			(uuid "b66c0921-8bf0-4667-85f2-77a7ca6a1475")
+		)
+		(pin "6"
+			(uuid "fa7798da-bc1a-4efe-a2c4-2adbd33a509c")
+		)
+		(pin "2"
+			(uuid "a4b579ad-2e17-462b-8494-c8c32094fe73")
+		)
+		(pin "4"
+			(uuid "8a3b51b4-ff16-4161-81d2-2b3e688d41c4")
+		)
+		(pin "5"
+			(uuid "5b149687-aa8a-4564-8695-552d7df33819")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 49.53 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "853071ab-6eba-4aae-a0a2-9c6a939d2509")
+		(property "Reference" "D27"
+			(at 51.6733 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 51.6733 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 50.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 52.07 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 49.53 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 49.53 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 49.53 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 49.53 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "acca2197-db9f-448b-ba12-d389ad543922")
+		)
+		(pin "1"
+			(uuid "98eaa42b-0a1b-48b7-8910-ae90ddb32dcd")
+		)
+		(pin "6"
+			(uuid "36921e88-5150-421a-9188-3eadf827f8c5")
+		)
+		(pin "2"
+			(uuid "71d9af6a-09b3-479d-9ff6-dea6a1f943d7")
+		)
+		(pin "4"
+			(uuid "55c903fc-6bc0-4d3f-a571-dac34507da6e")
+		)
+		(pin "5"
+			(uuid "04151c8b-494d-49e8-814e-0ac2f2cd90f0")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87a321a2-ae78-41b5-ad82-2938d5dca3d8")
+		(property "Reference" "#PWR0190"
+			(at 49.53 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adeffdda-62d6-4132-8099-ad6bacc9e715")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0190")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bac0b5e-660f-46b6-b2d8-f7ebf545c89c")
+		(property "Reference" "#PWR0164"
+			(at 27.94 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "390cdd51-b3c2-4227-af1e-122dfb61a8b9")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c445ea9-427d-48a7-804c-c1029039d5e4")
+		(property "Reference" "#PWR0141"
+			(at 27.94 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fbdb311-ed9d-4de1-9380-7ae465ae90b6")
+		)
+		(instances
+			(project ""
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 27.94 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e2bc454-e33d-4e84-96d1-6bffcd0b7e26")
+		(property "Reference" "D3"
+			(at 30.0833 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 30.0833 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 29.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 30.48 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 27.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 27.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 27.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 27.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b28c34be-6d57-48f6-92a1-5b0b17c9d223")
+		)
+		(pin "1"
+			(uuid "d0fe58ac-5d87-49fe-a099-faee2609148a")
+		)
+		(pin "6"
+			(uuid "71751668-54bc-4a03-a78d-a34b1b2bbffb")
+		)
+		(pin "2"
+			(uuid "37c298b9-a71e-4b9a-9c59-76625e126ff7")
+		)
+		(pin "4"
+			(uuid "d23da670-cf71-4151-b7a9-1cbca70c3fc7")
+		)
+		(pin "5"
+			(uuid "a7997050-b7a9-42a4-a0a1-b52b704e514c")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "933c75c1-a1be-4c1a-a34c-716ba3a223bc")
+		(property "Reference" "#PWR0194"
+			(at 92.71 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bd1c48f-822b-42f4-92bf-544fceed29a8")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0194")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 135.89 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ba6ceb7-c5bc-4b20-8ebd-00a1c7304fda")
+		(property "Reference" "D31"
+			(at 138.0333 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 138.0333 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 137.16 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 138.43 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 135.89 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 135.89 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 135.89 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 135.89 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1e54217f-fad8-45fa-b6e0-87e73b2673a2")
+		)
+		(pin "1"
+			(uuid "9771c22b-846e-416c-affe-0059a18be8fd")
+		)
+		(pin "6"
+			(uuid "2d6e81d4-cda4-449b-975d-d54a32a77c3f")
+		)
+		(pin "2"
+			(uuid "c77d5878-88cc-4fa3-bd55-598e91046def")
+		)
+		(pin "4"
+			(uuid "19a126f5-ec3f-4122-8896-eb8a58b02d2d")
+		)
+		(pin "5"
+			(uuid "3291bbb7-d021-4235-a8c8-a535926da0a6")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 265.43 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0d7f31e-6ec8-48ca-90c7-f3ee402488f3")
+		(property "Reference" "D13"
+			(at 267.5733 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 267.5733 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 266.7 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 267.97 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 265.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 265.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 265.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 265.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "86d79f3d-fc0e-480a-9de8-0dea36681aa5")
+		)
+		(pin "1"
+			(uuid "3b5e6553-4cc3-4572-a301-a7c1fdd4c64c")
+		)
+		(pin "6"
+			(uuid "457f63c3-59bf-425a-9a64-99364bb06b5c")
+		)
+		(pin "2"
+			(uuid "4e4b35b6-5a0d-4199-a326-b8b9dac8eead")
+		)
+		(pin "4"
+			(uuid "26692f2e-d333-4f0f-90d3-9b04f5d3053e")
+		)
+		(pin "5"
+			(uuid "3c46906f-0cd0-41d6-a440-0fc3ffb30577")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 243.84 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5940da2-11d8-4317-9b3f-17532603c168")
+		(property "Reference" "D36"
+			(at 245.9833 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 245.9833 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 245.11 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 246.38 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 243.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 243.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 243.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 243.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c381b8f5-2992-43ab-8a9c-24febfa675a5")
+		)
+		(pin "1"
+			(uuid "46122fa2-bd12-4248-90f4-50e979fb8e07")
+		)
+		(pin "6"
+			(uuid "7fc65db7-bc53-4320-b649-a54576fd643f")
+		)
+		(pin "2"
+			(uuid "660a4d02-3102-44d7-9690-957c1cead991")
+		)
+		(pin "4"
+			(uuid "b7a4c957-8c23-45a9-b37c-543eea470b11")
+		)
+		(pin "5"
+			(uuid "1893eae8-5569-46c2-97d5-90c0f2865dc4")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a878d875-c94e-4ba6-9897-c8baa4db8c74")
+		(property "Reference" "#PWR0180"
+			(at 200.66 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25677cc4-b2c0-4491-914c-f991370320ab")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0180")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 71.12 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9338634-c0e3-4c6d-b10f-c2aab4bd4db7")
+		(property "Reference" "D28"
+			(at 73.2633 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 73.2633 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 72.39 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 73.66 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 71.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 71.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 71.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 71.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "62122d6d-9b7b-45eb-934e-adb8299302b4")
+		)
+		(pin "1"
+			(uuid "375f55c2-2b4b-4686-bdc1-32977cfe4042")
+		)
+		(pin "6"
+			(uuid "abf36d1c-681b-40d2-b51c-d379859fbe63")
+		)
+		(pin "2"
+			(uuid "7b85d341-69c0-4485-a820-c2fa74470fa0")
+		)
+		(pin "4"
+			(uuid "584a575e-b58a-48bd-98e5-de3d8b7d49f3")
+		)
+		(pin "5"
+			(uuid "e8902e65-97e8-476f-a658-30f0f50dd4b3")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 222.25 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae4349e7-c053-49dc-856e-127b0d074c24")
+		(property "Reference" "D11"
+			(at 224.3933 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 224.3933 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 223.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 224.79 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 222.25 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 222.25 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 222.25 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 222.25 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d398f273-e008-4b1b-9db9-3b09758a24d5")
+		)
+		(pin "1"
+			(uuid "a3d9b1a8-7504-4f22-be68-7cd55c6f3ad7")
+		)
+		(pin "6"
+			(uuid "db9d8cfb-4718-4d60-a1ac-bda89a1c9e53")
+		)
+		(pin "2"
+			(uuid "e68a6ca2-15f7-4e36-9465-31f80f8116d5")
+		)
+		(pin "4"
+			(uuid "68eb58ca-03eb-43aa-b18d-1d49ea113205")
+		)
+		(pin "5"
+			(uuid "c498f715-9e84-4e76-8816-8d822a82fcfb")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 49.53 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1df4fe3-1ead-4ed8-bb27-ddfde00c27ca")
+		(property "Reference" "D15"
+			(at 51.6733 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 51.6733 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 50.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 52.07 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 49.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 49.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 49.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 49.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "67f7d44c-9eca-4287-bc6d-89347db79a7d")
+		)
+		(pin "1"
+			(uuid "b76819c1-e5ec-48e6-bb08-0f3b8f577ef8")
+		)
+		(pin "6"
+			(uuid "2b09f8a8-3e9f-4930-9caf-bf3a7512344e")
+		)
+		(pin "2"
+			(uuid "62d7050a-1f50-4d48-8c3a-85ce1a26af66")
+		)
+		(pin "4"
+			(uuid "903c63b9-42ad-4e0b-817a-62abb1aeb4c1")
+		)
+		(pin "5"
+			(uuid "375dd80c-2915-4853-9f8d-0faa2f52bc71")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b82fd85f-de3b-4c1d-8618-652f27e57c74")
+		(property "Reference" "#PWR0170"
+			(at 92.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2512ba13-5041-45d6-8851-f220364e8944")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 92.71 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcb6fd47-f4a3-4c79-9e03-33ba2fbd0ca6")
+		(property "Reference" "D17"
+			(at 94.8533 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 94.8533 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 95.25 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 92.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 92.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 92.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 92.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "88e726f3-4bf8-4ab2-b54b-9f09b1aef712")
+		)
+		(pin "1"
+			(uuid "e1302ca4-4f0f-418e-ac15-6a9b31513aa7")
+		)
+		(pin "6"
+			(uuid "e8eaad6d-fe7e-4bd2-82f4-85e74099fde3")
+		)
+		(pin "2"
+			(uuid "a1497cb0-1c6d-4ac4-bcdf-bc25478a1d1f")
+		)
+		(pin "4"
+			(uuid "a603d498-d55f-48fd-aeef-84f3fe43c4ab")
+		)
+		(pin "5"
+			(uuid "00649765-d958-4ed7-b492-619076375bc9")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c211e6a7-52ef-4c31-bd76-ad7550c0fc30")
+		(property "Reference" "#PWR0156"
+			(at 200.66 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a40daef5-7bc7-4629-9437-b71e0a5cc050")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 265.43 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c55e0c94-70a0-4fda-a6be-2a7ffee8cada")
+		(property "Reference" "D25"
+			(at 267.5733 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 267.5733 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 266.7 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 267.97 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 265.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 265.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 265.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 265.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "10210068-dd62-4241-a55b-d6951a6a4f43")
+		)
+		(pin "1"
+			(uuid "6d75868f-8999-4ba3-ba97-5afc63f01337")
+		)
+		(pin "6"
+			(uuid "69fbed04-4808-4829-af28-8290383d3ae4")
+		)
+		(pin "2"
+			(uuid "edb2be96-7ff7-41ac-93ac-cef0c7d7a20b")
+		)
+		(pin "4"
+			(uuid "39de595e-69b5-475a-8751-611a28582da7")
+		)
+		(pin "5"
+			(uuid "2e19755e-6772-40ef-b813-ba291ee7249b")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 157.48 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb5584cd-7585-46fb-a1c3-5c2e99247885")
+		(property "Reference" "D32"
+			(at 159.6233 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 159.6233 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 158.75 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 160.02 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 157.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 157.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 157.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 157.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d00cff36-6384-4459-83b4-5819ebeca093")
+		)
+		(pin "1"
+			(uuid "052b5c07-dc3a-4f31-abe8-1a0f1c405525")
+		)
+		(pin "6"
+			(uuid "5f150dd3-a03d-442f-b675-50cc3a660f28")
+		)
+		(pin "2"
+			(uuid "863a6bb0-2318-4f83-a763-c4e249e09970")
+		)
+		(pin "4"
+			(uuid "ad584cfd-0652-43b1-a9de-baaf56405c45")
+		)
+		(pin "5"
+			(uuid "8808ee09-8c4e-4801-bde1-a6147a58eef8")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce245637-5be4-4a83-a58e-d283a4c432ff")
+		(property "Reference" "#PWR0144"
+			(at 71.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "567628be-6b60-475d-b093-1e404f1acad1")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 243.84 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cff8cb31-1de5-400d-ac14-2b006855b2d1")
+		(property "Reference" "D12"
+			(at 245.9833 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 245.9833 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 245.11 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 246.38 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 243.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 243.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 243.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 243.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1d9ad89f-2154-441c-86ec-2a554b029e4f")
+		)
+		(pin "1"
+			(uuid "703e5012-864d-4d3a-aa38-259f8bfca092")
+		)
+		(pin "6"
+			(uuid "3202b532-ea87-4192-b18e-228349477f25")
+		)
+		(pin "2"
+			(uuid "3c5dc22e-c56c-459a-a3dc-2adadf429194")
+		)
+		(pin "4"
+			(uuid "d4664a37-ecfb-499d-9923-6d0d19c3e170")
+		)
+		(pin "5"
+			(uuid "5545475e-02c4-40ef-a2f7-517bcbe47e79")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 92.71 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d11c10f6-5ed5-4cdb-bfd6-d0bf83242518")
+		(property "Reference" "D29"
+			(at 94.8533 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 94.8533 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 93.98 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 95.25 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 92.71 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 92.71 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 92.71 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 92.71 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c6a1b9a2-3737-4a84-8c7a-6ead16bce05c")
+		)
+		(pin "1"
+			(uuid "8e347cd7-a157-4f0a-9470-ca36aaabe7d6")
+		)
+		(pin "6"
+			(uuid "dcf16ed7-524a-451f-a93f-fc1720645cf5")
+		)
+		(pin "2"
+			(uuid "e5810632-458f-40d2-ab3a-f3d19963715e")
+		)
+		(pin "4"
+			(uuid "2337a982-da27-46a6-b05f-2fe5880f4188")
+		)
+		(pin "5"
+			(uuid "a4535e0c-5466-40a2-ad16-e5d7dfeeddb8")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d16527d3-dc98-4db2-ab24-d395566cc360")
+		(property "Reference" "#PWR0148"
+			(at 114.3 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65f37b10-a547-4503-b490-4df8f447514b")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 71.12 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6f914e9-00b8-4bf4-b657-e98f7a8817cc")
+		(property "Reference" "D4"
+			(at 73.2633 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 73.2633 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 72.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 73.66 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 71.12 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 71.12 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 71.12 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 71.12 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "becd4bf7-37bd-4936-81b8-fa16dfbfe1d2")
+		)
+		(pin "1"
+			(uuid "3431e5ee-9b23-4517-9852-542841160dde")
+		)
+		(pin "6"
+			(uuid "1908883e-27ff-46f8-adb5-c28760901091")
+		)
+		(pin "2"
+			(uuid "5994e704-6f9f-42a0-97e7-210715b86a96")
+		)
+		(pin "4"
+			(uuid "9bad0603-ef72-4001-b255-7f9f2996bb30")
+		)
+		(pin "5"
+			(uuid "8be7b6c3-f34d-4355-baea-d15edbf28664")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da45de0d-8e61-4ac2-b392-2c095a311597")
+		(property "Reference" "#PWR0192"
+			(at 71.12 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91a5e9f7-20e6-4656-ae01-1aa956e372f5")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0192")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 135.89 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dacf65ed-c7c7-40fa-9058-f48dede637cd")
+		(property "Reference" "D7"
+			(at 138.0333 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 138.0333 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 137.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 138.43 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 135.89 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 135.89 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 135.89 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 135.89 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0f28ac03-1213-4424-baec-c44c372940b6")
+		)
+		(pin "1"
+			(uuid "e4ce5731-0ffe-4c31-b1a2-e32be6a8b2a7")
+		)
+		(pin "6"
+			(uuid "654e8409-237d-420d-a76a-34e2675b6c7c")
+		)
+		(pin "2"
+			(uuid "305a969b-af0f-4e9a-aad6-86a9ccb47efb")
+		)
+		(pin "4"
+			(uuid "544c211c-0bf8-4f97-8762-fbb9b2a346d7")
+		)
+		(pin "5"
+			(uuid "8c5ea585-db47-4714-9842-cfdaa3a3fed5")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 114.3 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc2425e1-d23f-4c66-ab88-ed887a60324e")
+		(property "Reference" "D6"
+			(at 116.4433 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 116.4433 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 115.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 116.84 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 114.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 114.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 114.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 114.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b9bdb77d-cb22-48ca-a8ce-8cc03080b374")
+		)
+		(pin "1"
+			(uuid "42338ca3-df7f-4517-9249-ec3942bbf775")
+		)
+		(pin "6"
+			(uuid "91284fca-3996-4f65-b022-769f7b3c5d61")
+		)
+		(pin "2"
+			(uuid "34a9dc49-da86-4f35-bc0d-4873d44d9157")
+		)
+		(pin "4"
+			(uuid "f40838f5-39fa-48a6-a0dd-8c8fef704d7c")
+		)
+		(pin "5"
+			(uuid "aa681165-62ba-4f31-a53f-df651f4da703")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 157.48 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "def3b4d3-2cd6-44e2-85aa-a8d806797ec4")
+		(property "Reference" "D20"
+			(at 159.6233 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 159.6233 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 158.75 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 160.02 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 157.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 157.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 157.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 157.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "68902f49-f068-4f1c-9e54-5887a82c0c75")
+		)
+		(pin "1"
+			(uuid "a1d291f6-ba62-4332-8f41-37a47c45d053")
+		)
+		(pin "6"
+			(uuid "1667a951-d12f-4aad-ac9b-38461d257c98")
+		)
+		(pin "2"
+			(uuid "e11267b7-d5aa-42fd-a693-cd47927ec872")
+		)
+		(pin "4"
+			(uuid "affcb075-187b-45bd-b6ed-1e5ec4f9d054")
+		)
+		(pin "5"
+			(uuid "dcb0596f-adc5-4073-b7ec-af26e2284025")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 49.53 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df13fdfe-ae64-4f5a-abd4-eac9dcbf67b4")
+		(property "Reference" "D2"
+			(at 51.6733 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 51.6733 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 50.8 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 52.07 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 49.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 49.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 49.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 49.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9d34bb6c-b455-4fd2-828c-a7db23a91007")
+		)
+		(pin "1"
+			(uuid "aa68ab6e-2c08-4822-990f-2e991b757f35")
+		)
+		(pin "6"
+			(uuid "32dc5afe-6618-4eac-971b-94f53bf86f11")
+		)
+		(pin "2"
+			(uuid "78f943fa-f61d-42b5-a997-636a7e810b7b")
+		)
+		(pin "4"
+			(uuid "4728932f-16f0-4f23-826c-31a2223ac085")
+		)
+		(pin "5"
+			(uuid "f3f467ae-9194-4648-b006-82ac2af56ea5")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 27.94 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e34dbf38-54f8-4795-8bae-8af22d2084d7")
+		(property "Reference" "D14"
+			(at 30.0833 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 30.0833 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 29.21 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 30.48 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 27.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 27.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 27.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 27.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "171a5aa7-aae1-4c91-a31f-bd843d79eddf")
+		)
+		(pin "1"
+			(uuid "94f784be-a748-4f33-91b1-723d1607378d")
+		)
+		(pin "6"
+			(uuid "a2d9a67e-9e41-4edd-9467-6c24b3af9db8")
+		)
+		(pin "2"
+			(uuid "063a14eb-d3bc-4d3e-9265-99d1f8447465")
+		)
+		(pin "4"
+			(uuid "5d785575-ee25-4649-9e5e-5e180c488cdb")
+		)
+		(pin "5"
+			(uuid "01f4d30d-1b03-49e6-aae3-ba230ccda7cd")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 27.94 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6a9a7b7-db0a-4ab5-9192-722bf4ce989b")
+		(property "Reference" "D26"
+			(at 30.0833 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 30.0833 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 29.21 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 30.48 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 27.94 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 27.94 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 27.94 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 27.94 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1ceffcd0-52da-4856-95c2-df4891fdfc12")
+		)
+		(pin "1"
+			(uuid "31870688-868d-4d0e-a14a-e382eb5b82fa")
+		)
+		(pin "6"
+			(uuid "9bee0f9a-bed9-46db-8e55-36ff3c46682f")
+		)
+		(pin "2"
+			(uuid "983d70eb-ae07-4ccb-9904-74fc20d3ad99")
+		)
+		(pin "4"
+			(uuid "fd1e471d-5b2b-40f0-a084-eec3b04b42dc")
+		)
+		(pin "5"
+			(uuid "4f1187a0-b690-4123-9113-610d0b0113e9")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea738e33-842e-47a4-b67d-1181415dde4d")
+		(property "Reference" "#PWR0204"
+			(at 200.66 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "155b9030-56b8-477f-bdea-7937fa21278b")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 222.25 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed209e87-f042-4ae0-b1c6-f5332106d804")
+		(property "Reference" "#PWR0206"
+			(at 222.25 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "efacdec9-61a8-43fb-8b04-18030df32610")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 222.25 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0d4b2cc-4704-46f9-be28-7e573002ae68")
+		(property "Reference" "#PWR0182"
+			(at 222.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58c0bd51-6306-43b1-a9b8-761d7bdfae39")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0182")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 222.25 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2130bf6-8e6f-4ae6-b269-4509aed0175e")
+		(property "Reference" "D23"
+			(at 224.3933 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 224.3933 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 223.52 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 224.79 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 222.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 222.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 222.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 222.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c3d79b73-a8ba-4a88-8d5f-62b00925b968")
+		)
+		(pin "1"
+			(uuid "72ce1fb1-601d-4bdc-be62-1aa066328372")
+		)
+		(pin "6"
+			(uuid "fa1d0902-a32c-4241-990b-a5e33e4d11e0")
+		)
+		(pin "2"
+			(uuid "e94f6fec-70f6-4e1e-9af6-c8c3498eebd8")
+		)
+		(pin "4"
+			(uuid "bbe0831c-d35b-42c7-9103-282b0763a85f")
+		)
+		(pin "5"
+			(uuid "3ae3003d-02c5-4b4d-8028-b1a3a51776b2")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 222.25 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb35f368-d46d-46ba-a48c-784716720e6b")
+		(property "Reference" "#PWR0158"
+			(at 222.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 222.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6d33ccd-492f-46df-8b20-d1c6fc7c2d30")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe07ff69-edbb-411e-a16c-e3ffde4657ba")
+		(property "Reference" "#PWR0176"
+			(at 157.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7b6a563-f8fe-43d9-919e-d94cf3b153a2")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0176")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:APA102-2020")
+		(at 114.3 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe4aa2c9-2f70-4d7f-8c9c-d0dc10b071c5")
+		(property "Reference" "D18"
+			(at 116.4433 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "APA102-2020"
+			(at 116.4433 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf"
+			(at 116.84 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 114.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #|" "C2909059"
+			(at 114.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 114.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 114.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cde64c5e-481c-4869-aee6-64a5a32abaf3")
+		)
+		(pin "1"
+			(uuid "aad8f04a-15e0-4493-85d7-efa966fb08f1")
+		)
+		(pin "6"
+			(uuid "e991b635-a740-4146-8220-9041f4e76950")
+		)
+		(pin "2"
+			(uuid "68e3d6ea-0b18-4321-8d58-dc1295e9e8e2")
+		)
+		(pin "4"
+			(uuid "8d2072f1-b379-48cf-bbda-ab7359a96bae")
+		)
+		(pin "5"
+			(uuid "153e8f35-42cc-4d6f-bf70-c1f90e17ee7a")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fee2e3f1-c2d0-47ca-9215-204b57d2833f")
+		(property "Reference" "#PWR0154"
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c2fbfd4-3009-4ebc-a41f-9a36e79372aa")
+		)
+		(instances
+			(project "Retro_Stereo_Main_Board"
+				(path "/c5100ed4-c30c-4b3e-8591-d1f32db117c6/ef1ea785-ec28-40e1-9bf9-39db934989f5"
+					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
