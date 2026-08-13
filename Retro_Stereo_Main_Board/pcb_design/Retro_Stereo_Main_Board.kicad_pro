@@ -805,10 +805,6 @@
     [
       "aefb8232-0186-42b1-94c4-f1679f22f15c",
       "Interface-I2C"
-    ],
-    [
-      "d37e29a6-760f-4d8f-802b-b7168023c7e9",
-      "Aux-In-Module"
     ]
   ],
   "text_variables": {}

@@ -6709,10 +6709,6 @@
 		(uuid "367e0a21-c433-4a05-a016-b44b13ba9f15")
 	)
 	(no_connect
-		(at 163.83 224.79)
-		(uuid "36b8bbb5-ac75-4494-abb3-d8d7d00af6ce")
-	)
-	(no_connect
 		(at 265.43 105.41)
 		(uuid "37bb179a-84fd-40d1-826f-3e59c4a0116b")
 	)
@@ -6913,16 +6909,8 @@
 		(uuid "c2171f7f-3f0b-42b7-b99b-cbe17a57585d")
 	)
 	(no_connect
-		(at 163.83 227.33)
-		(uuid "c5b472a3-2b17-49aa-890f-fddeafd85a00")
-	)
-	(no_connect
 		(at 265.43 204.47)
 		(uuid "ca6f3c83-d699-44ea-a575-f580a0311477")
-	)
-	(no_connect
-		(at 163.83 229.87)
-		(uuid "d477963b-df29-4d76-8d4b-9db3714dba7b")
 	)
 	(no_connect
 		(at 265.43 184.15)
@@ -7219,6 +7207,16 @@
 			(type default)
 		)
 		(uuid "212d1743-8763-4ba2-b8c4-bd8e7d4b65df")
+	)
+	(wire
+		(pts
+			(xy 139.7 227.33) (xy 163.83 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21492065-9487-4496-8570-e1d5682cab14")
 	)
 	(wire
 		(pts
@@ -7712,6 +7710,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 229.87) (xy 163.83 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59563118-e62a-4252-b220-03ad8411a3b4")
+	)
+	(wire
+		(pts
 			(xy 124.46 144.78) (xy 124.46 147.32)
 		)
 		(stroke
@@ -8189,6 +8197,16 @@
 			(type default)
 		)
 		(uuid "7e1c4218-e47d-41c5-ba4d-a8872144069d")
+	)
+	(wire
+		(pts
+			(xy 139.7 224.79) (xy 163.83 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1d2402-8517-4239-b811-5200ef7b018d")
 	)
 	(wire
 		(pts
@@ -9819,6 +9837,17 @@
 		)
 		(uuid "4b9778c7-3162-4acc-8344-0b6f5bc878fc")
 	)
+	(hierarchical_label "FM_GPIO_1"
+		(shape input)
+		(at 139.7 227.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f66108e-3983-4c94-ae41-475bc8b758a4")
+	)
 	(hierarchical_label "BTN_SRC"
 		(shape input)
 		(at 290.83 148.59 0)
@@ -10215,6 +10244,17 @@
 		)
 		(uuid "de979b3a-2b8a-4064-bd04-791ced41ad35")
 	)
+	(hierarchical_label "FM_GPIO_0"
+		(shape input)
+		(at 139.7 224.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "debfe706-62ed-444d-affb-c5ad247d5367")
+	)
 	(hierarchical_label "SD_D1"
 		(shape input)
 		(at 290.83 158.75 0)
@@ -10258,6 +10298,17 @@
 			(justify left)
 		)
 		(uuid "f3ed2e99-8839-4773-8be2-193c201e3495")
+	)
+	(hierarchical_label "FM_GPIO_2"
+		(shape input)
+		(at 139.7 229.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5d226a6-9338-40d3-adf5-e9423da012c3")
 	)
 	(hierarchical_label "DSI_TE"
 		(shape input)
