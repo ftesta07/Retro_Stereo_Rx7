@@ -6777,10 +6777,6 @@
 		(uuid "67f8d20c-9fdf-48b0-868d-77e2154fcdba")
 	)
 	(no_connect
-		(at 265.43 69.85)
-		(uuid "68418f6f-9c8e-4f07-9c17-9992ef686bdd")
-	)
-	(no_connect
 		(at 163.83 199.39)
 		(uuid "6f97be1e-abc7-4b88-ba15-893ee58ad9a2")
 	)
@@ -6795,10 +6791,6 @@
 	(no_connect
 		(at 163.83 163.83)
 		(uuid "79670bdd-bf50-47e6-9697-a847f45edfc5")
-	)
-	(no_connect
-		(at 265.43 72.39)
-		(uuid "7a54f2b0-d317-4fe0-9c9b-c1baf7dc371a")
 	)
 	(no_connect
 		(at 163.83 143.51)
@@ -6855,10 +6847,6 @@
 	(no_connect
 		(at 163.83 201.93)
 		(uuid "a1f485ad-1b18-4b77-94c6-d7336d67f72d")
-	)
-	(no_connect
-		(at 265.43 74.93)
-		(uuid "a1f72d25-335a-4763-acb4-e3b89ccc2584")
 	)
 	(no_connect
 		(at 265.43 260.35)
@@ -8254,6 +8242,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 72.39) (xy 290.83 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8041cffd-ba33-438e-935a-247ec40bd384")
+	)
+	(wire
+		(pts
 			(xy 290.83 212.09) (xy 265.43 212.09)
 		)
 		(stroke
@@ -8411,6 +8409,16 @@
 			(type default)
 		)
 		(uuid "8cd20dbd-26d0-4056-9359-b0826e035cae")
+	)
+	(wire
+		(pts
+			(xy 290.83 69.85) (xy 265.43 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d2a8608-43ab-4aee-afd0-657ba7a67655")
 	)
 	(wire
 		(pts
@@ -9214,6 +9222,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 74.93) (xy 290.83 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d9434c-7123-42b0-b882-17a541bb354e")
+	)
+	(wire
+		(pts
 			(xy 16.51 105.41) (xy 16.51 106.68)
 		)
 		(stroke
@@ -9685,6 +9703,17 @@
 		)
 		(uuid "07e3e09f-9747-44e8-ba1a-d028b5510def")
 	)
+	(hierarchical_label "BT_MFB"
+		(shape output)
+		(at 290.83 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "086a0b4a-78a4-42ee-8cd2-bff1c4d90ac5")
+	)
 	(hierarchical_label "I2C_SDA"
 		(shape output)
 		(at 290.83 110.49 0)
@@ -9695,6 +9724,17 @@
 			(justify left)
 		)
 		(uuid "0c3d70f2-7236-48f0-9dd1-24c7403fe8f2")
+	)
+	(hierarchical_label "BT_UART_INT"
+		(shape input)
+		(at 290.83 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f982d34-f379-41e9-a9a7-18502f47a278")
 	)
 	(hierarchical_label "OUT_I2S_SD"
 		(shape input)
@@ -10003,6 +10043,17 @@
 			(justify left)
 		)
 		(uuid "778916f0-4ce5-4c24-906a-8df2b759e5f1")
+	)
+	(hierarchical_label "BT_RST"
+		(shape output)
+		(at 290.83 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "782d66ad-08cf-4497-9185-f4f51969e8a1")
 	)
 	(hierarchical_label "USBA_D-"
 		(shape bidirectional)
